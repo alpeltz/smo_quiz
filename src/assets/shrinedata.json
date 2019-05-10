@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "001",
+    "monk": "Oman Au",
+    "trial": "Magnesis Trial",
+    "main_item": "Traveler's Bow",
+    "region": "Great Plateau"
+  },
+  {
+    "id": "002",
+    "monk": "Ja Baij",
+    "trial": "Bomb Trial",
+    "main_item": "Traveler's Claymore",
+    "region": "Great Plateau"
+  },
+  {
+    "id": "003",
+    "monk": "Owa Daim",
+    "trial": "Stasis Trial",
+    "main_item": "Traveler's Shield",
+    "region": "Great Plateau"
+  },
+  {
+    "id": "004",
+    "monk": "Keh Namut",
+    "trial": "Cryonis Trial",
+    "main_item": "Traveler's Spear",
+    "region": "Great Plateau"
+  },
+  {
+    "id": "005",
+    "monk": "Bosh Kala",
+    "trial": "The Wind Guides You",
+    "main_item": "Soldier's Claymore",
+    "region": "Dueling Peaks"
+  },
+  {
+    "id": "006",
+    "monk": "Toto Sah",
+    "trial": "Toto Sah Apparatus",
+    "main_item": "Shield of the Mind's Eye",
+    "region": "Dueling Peaks"
+  },
+  {
+    "id": "007",
+    "monk": "Shee Vaneer",
+    "trial": "Twin Memories",
+    "main_item": "Eightfold Longblade",
+    "region": "Dueling Peaks"
+  },
+  {
+    "id": "008",
+    "monk": "Ree Dahee",
+    "trial": "Timing is Critical",
+    "main_item": "Climber’s Bandana",
+    "region": "Dueling Peaks"
+  },
+  {
+    "id": "009",
+    "monk": "Shee Venath",
+    "trial": "Twin Memories",
+    "main_item": "Serpentine Spear",
+    "region": "Dueling Peaks",
+    "missing_images": ["title"]
+  },
+  {
+    "id": "010",
+    "monk": "Ha Dahamar",
+    "trial": "The Water Guides",
+    "main_item": "Purple Rupee",
+    "region": "Dueling Peaks",
+    "landmark": "Dueling Peaks Stable"
+  },
+  {
+    "id": "011",
+    "monk": "Ta'loh Naeg",
+    "trial": "Ta'loh Naeg's Teaching",
+    "main_item": "Eightfold Blade, Shield of the Mind's Eye",
+    "region": "Dueling Peaks",
+    "landmark": "Kakariko Village",
+    "missing_images": ["internal"]
+  },
+  {
+    "id": "012",
+    "monk": "Hila Rao",
+    "trial": "Drifting",
+    "main_item": "Silver Rupee",
+    "region": "Dueling Peaks",
+    "quest": "Watch Out for the Flowers"
+  },
+  {
+    "id": "013",
+    "monk": "Lakna Rokee",
+    "trial": "Lakna Rokee's Blessing",
+    "main_item": "Edge of Duality",
+    "region": "Dueling Peaks",
+    "quest": "The Stolen Heirloom"
+  },
+  {
+    "id": "014",
+    "monk": "Chaas Qeta",
+    "trial": "A Major Test of Strength",
+    "main_item": "Chaas Qeta",
+    "region": "Hateno"
+  },
+  {
+    "id": "015",
+    "monk": "Myahm Agana",
+    "trial": "Myahm Agana Apparatus",
+    "main_item": "Phrenic Bow",
+    "region": "Hateno",
+    "landmark": "Hateno Village"
+  },
+  {
+    "id": "016",
+    "monk": "Tahno O'ah",
+    "trial": "Tahno O'ah's Blessing",
+    "main_item": "Climbing Boots",
+    "region": "Hateno",
+    "quest": "Secret of the Cedars"
+  },
+  {
+    "id": "017",
+    "monk": "Jitan Sa'mi",
+    "trial": "Jitan Sa'mi's Blessing",
+    "main_item": "Frostspear",
+    "region": "Hateno",
+    "quest": "The Spring of Wisdom"
+  },
+  {
+    "id": "018",
+    "monk": "Dow Na'eh",
+    "trial": "Three Boxes",
+    "main_item": "Zora Sword",
+    "region": "Hateno"
+  },
+  {
+    "id": "019",
+    "monk": "Kam Urog",
+    "trial": "Trial of Passage",
+    "main_item": "Soldier's Spear",
+    "region": "Hateno",
+    "quest": "The Cursed Statue"
+  },
+  {
+    "id": "020",
+    "monk": "Mezza Lo",
+    "trial": "Ancient Trifecta",
+    "main_item": "Thunderblade",
+    "region": "Hateno",
+    "quest": "The Crowned Beast"
+  },
+  {
+    "id": "021",
+    "monk": "Daka Tuss",
+    "trial": "Sunken Scoop",
+    "main_item": "Silver Longsword",
+    "region": "Lanayru",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "022",
+    "monk": "Kaya Wan",
+    "trial": "Shields from Water",
+    "main_item": "Knight's Broadsword, Ancient Core",
+    "region": "Lanayru",
+    "landmark": "Wetland Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "023",
+    "monk": "Soh Kofi",
+    "trial": "A Minor Test of Strength",
+    "main_item": "Knight's Bow",
+    "region": "Lanayru",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "024",
+    "monk": "Sheh Rata",
+    "trial": "Speed of Light",
+    "main_item": "Giant Boomerang",
+    "region": "Lanayru",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "025",
+    "monk": "Rucco Maag",
+    "trial": "Five Flames",
+    "main_item": "Silver Bow",
+    "region": "Lanayru",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "026",
+    "monk": "Shai Yota",
+    "trial": "Shai Yota's Blessing",
+    "main_item": "Great Flameblade",
+    "region": "Lanayru",
+    "quest": "Master of the Wind",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "027",
+    "monk": "Dagah Keek",
+    "trial": "Dagah Keek's Blessing",
+    "main_item": "Silver Rupee",
+    "region": "Lanayru",
+    "quest": "The Ceremonial Song",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "028",
+    "monk": "Ne'ez Yohma",
+    "trial": "Pushing Power",
+    "main_item": "Zora Spear",
+    "region": "Lanayru",
+    "landmark": "Zora's Domain",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "029",
+    "monk": "Kah Mael",
+    "trial": "Drop and Rise",
+    "main_item": "Diamond",
+    "region": "Lanayru",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "030",
+    "monk": "Rona Kachta",
+    "trial": "Rona Kachta's Blessing",
+    "main_item": "Great Flameblade",
+    "region": "Woodland",
+    "landmark": "Forgotten Temple",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "031",
+    "monk": "Monya Toma",
+    "trial": "Drawing Parabolas",
+    "main_item": "Thunderblade",
+    "region": "Woodland",
+    "landmark": "Serenne Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "032",
+    "monk": "Kuhn Sidajj",
+    "trial": "Kuhn Sidajj's Blessing",
+    "main_item": "Giant Ancient Core",
+    "region": "Woodland",
+    "quest": "Trial of Second Sight",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "033",
+    "monk": "Daag Chokah",
+    "trial": "Daag Chokah's Blessing",
+    "main_item": "Ancient Core",
+    "region": "Woodland",
+    "quest": "The Lost Pilgrimage",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "034",
+    "monk": "Keo Ruug",
+    "trial": "Fateful Stars",
+    "main_item": "Knight's Claymore",
+    "region": "Woodland",
+    "landmark": "Korok Forest",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "035",
+    "monk": "Maag Halan",
+    "trial": "Maag Halan's Blessing",
+    "main_item": "Giant Ancient Core",
+    "region": "Woodland",
+    "quest": "The Test of Wood",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "036",
+    "monk": "Ketoh Wawai",
+    "trial": "Ketoh Wawai's Blessing",
+    "main_item": "Ancient Core",
+    "region": "Woodland",
+    "quest": "Shrouded Shrine",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "037",
+    "monk": "Mirro Shaz",
+    "trial": "Tempered Power",
+    "main_item": "Giant Ancient Core",
+    "region": "Woodland",
+    "landmark": "Woodland Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "038",
+    "monk": "Dah Kaso",
+    "trial": "A Minor Test of Strength",
+    "main_item": "Ancient Core",
+    "region": "Central",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "039",
+    "monk": "Rota Ooh",
+    "trial": "Passing of the Gates",
+    "main_item": "Feathered Edge",
+    "region": "Central",
+    "landmark": "Outskirt Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "040",
+    "monk": "Wahgo Katta",
+    "trial": "Metal Connections",
+    "main_item": "Amber",
+    "region": "Central",
+    "landmark": "Riverside Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "041",
+    "monk": "Kaam Ya'tak",
+    "trial": "Trial of Power",
+    "main_item": "Edge of Duality, Knight's Broadsword, Ancient Core, Silver Rupee, Diamond",
+    "region": "Central",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "042",
+    "monk": "Katah Chuki",
+    "trial": "A Minor Test of Strength",
+    "main_item": "Royal Halberd",
+    "region": "Central",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "043",
+    "monk": "Noya Neha",
+    "trial": "A Minor Test of Strength",
+    "main_item": "Knight's Shield",
+    "region": "Central",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "044",
+    "monk": "Saas Ko'sah",
+    "trial": "A Major Test of Strength",
+    "main_item": "Flameblade",
+    "region": "Central",
+    "landmark": "Hyrule Castle",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "045",
+    "monk": "Namika Ozz",
+    "trial": "A Modest Test of Strength",
+    "main_item": "Frostspear",
+    "region": "Central",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "046",
+    "monk": "Ishto Soh",
+    "trial": "Bravery's Grasp",
+    "main_item": "Ancient Core",
+    "region": "Lake",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "047",
+    "monk": "Shoqa Tatone",
+    "trial": "A Modest Test of Strength",
+    "main_item": "Royal Broadsword",
+    "region": "Lake",
+    "quest": "Guardian Slideshow",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "048",
+    "monk": "Ka'o Makagh",
+    "trial": "Metal Doors Open the Way",
+    "main_item": "Traveler’s Bow, Gold Rupee",
+    "region": "Lake",
+    "landmark": "Highland Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "049",
+    "monk": "Pumaag Nitae",
+    "trial": "A Minor Test of Strength",
+    "main_item": "Boomerang",
+    "region": "Lake",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "050",
+    "monk": "Ya Naga",
+    "trial": "Shatter the Heavens",
+    "main_item": "Eightfold Blade",
+    "region": "Lake",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "051",
+    "monk": "Shae Katha",
+    "trial": "Shae Katha's Blessing",
+    "main_item": "Thunderspear",
+    "region": "Lake",
+    "quest": "The Serpent's Jaw",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "052",
+    "monk": "Shai Utoh",
+    "trial": "Halt the Tilt",
+    "main_item": "Traveler’s Sword, Ancient Core",
+    "region": "Faron",
+    "landmark": "Lakeside Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "053",
+    "monk": "Qukah Nata",
+    "trial": "Qukah Nata's Blessing",
+    "main_item": "Rubber Tights",
+    "region": "Faron",
+    "quest": "A Song of Storms",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "054",
+    "monk": "Shoda Sah",
+    "trial": "Impeccable Timing",
+    "main_item": "Ice Arrows",
+    "region": "Faron",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "055",
+    "monk": "Tawa Jinn",
+    "trial": "Tawa Jinn's Blessing",
+    "main_item": "Great Thunderblade",
+    "region": "Faron",
+    "quest": "The Three Giant Brothers",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "056",
+    "monk": "Yah Rin",
+    "trial": "A Weighty Decision",
+    "main_item": "Knight's Broadsword",
+    "region": "Faron",
+    "landmark": "Lurelin Village",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "057",
+    "monk": "Kah Yah",
+    "trial": "Quick Thinking",
+    "main_item": "Knight's Claymore",
+    "region": "Faron",
+    "quest": "A Fragmented Monument",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "058",
+    "monk": "Muwo Jeem",
+    "trial": "A Modest Test of Strength",
+    "main_item": "Knight's Bow",
+    "region": "Faron",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "059",
+    "monk": "Korgu Chideh",
+    "trial": "Korgu Chideh's Blessing",
+    "main_item": "Gold Rupee",
+    "region": "Faron",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "060",
+    "monk": "Mijah Rokee",
+    "trial": "A Modest Test of Strength",
+    "main_item": "Frostblade",
+    "region": "Ridgeland",
+    "quest": "Under a Red Moon",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "061",
+    "monk": "Shae Loya",
+    "trial": "Aim for the Moment",
+    "main_item": "Falcon Bow",
+    "region": "Ridgeland",
+    "landmark": "Tabantha Bridge Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "062",
+    "monk": "Sheem Dagoze",
+    "trial": "Moving in Parallel",
+    "main_item": "Great Thunderblade",
+    "region": "Ridgeland",
+    "quest": "The Two Rings",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "063",
+    "monk": "Mogg Latan",
+    "trial": "Synced Swing",
+    "main_item": "Forest Dweller's Spear, Forest Dweller's Bow, Gold Rupee",
+    "region": "Ridgeland",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "064",
+    "monk": "Zalta Wa",
+    "trial": "Two Orbs to Guide You",
+    "main_item": "Knight's Bow",
+    "region": "Ridgeland",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "065",
+    "monk": "Maag No'rah",
+    "trial": "Maag No'rah's Blessing",
+    "main_item": "Silver Rupee",
+    "region": "Ridgeland",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "066",
+    "monk": "Toh Yahsa",
+    "trial": "Buried Secrets",
+    "main_item": "Rubber Armor",
+    "region": "Ridgeland",
+    "quest": "Trial of Thunder",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "067",
+    "monk": "Sha Warvo",
+    "trial": "Path of Hidden Winds",
+    "main_item": "Knight's Bow, Purple Rupee",
+    "region": "Tabantha",
+    "landmark": "Flight Range",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "068",
+    "monk": "Voo Lota",
+    "trial": "The Winding Route",
+    "main_item": "Flameblade",
+    "region": "Tabantha",
+    "quest": "Recital at Warbler's Nest",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "069",
+    "monk": "Akh Va'quot",
+    "trial": "Windmills",
+    "main_item": "Sapphire, Feathered Spear, Ancient Core",
+    "region": "Tabantha",
+    "landmark": "Rito Village",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "070",
+    "monk": "Bareeda Naag",
+    "trial": "Cannon",
+    "main_item": "Falcon Bow, Diamond",
+    "region": "Tabantha",
+    "quest": "The Ancient Rito Song",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "071",
+    "monk": "Tena Ko'sah",
+    "trial": "A Major Test of Strength",
+    "main_item": "Royal Halberd",
+    "region": "Tabantha",
+    "landmark": "Ancient Columns",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "072",
+    "monk": "Kah Okeo",
+    "trial": "Wind Guide",
+    "main_item": "Forest Dweller's Sword, Giant Ancient Core, Thunderspear",
+    "region": "Tabantha",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "073",
+    "monk": "Hia Miu",
+    "trial": "A Major Test of Strength",
+    "main_item": "Sapphire",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "074",
+    "monk": "To Quomo",
+    "trial": "To Quomo's Blessing",
+    "main_item": "Royal Claymore",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "075",
+    "monk": "Mozo Shenno",
+    "trial": "A Major Test of Strength",
+    "main_item": "Diamond",
+    "region": "Hebra",
+    "quest": "The Bird in the Mountains",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "076",
+    "monk": "Shada Naw",
+    "trial": "Red Giveaway",
+    "main_item": "Great Frostblade",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "077",
+    "monk": "Rok Uwog",
+    "trial": "Power of Reach",
+    "main_item": "Drillshaft",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "078",
+    "monk": "Sha Gehma",
+    "trial": "Shift and Lock",
+    "main_item": "Royal Broadsword",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "079",
+    "monk": "Qaza Tokki",
+    "trial": "Qaza Tokki's Blessing",
+    "main_item": "Barbarian Leg Wraps",
+    "region": "Hebra",
+    "quest": "Trial on the Cliff",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "080",
+    "monk": "Goma Asaagh",
+    "trial": "A Major Test of Strength",
+    "main_item": "Royal Claymore",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "081",
+    "monk": "Maka Rah",
+    "trial": "Steady Thy Heart",
+    "main_item": "Bomb Arrows, Diamond, Ancient Core",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "082",
+    "monk": "Dunba Taag",
+    "trial": "Build and Release",
+    "main_item": "Great Thunderblade, Falcon Bow",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "083",
+    "monk": "Lanno Kooh",
+    "trial": "Lanno Kooh's Blessing",
+    "main_item": "Gold Rupee",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "084",
+    "monk": "Gee Ha'rah",
+    "trial": "Tandem",
+    "main_item": "Diamond",
+    "region": "Hebra",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "085",
+    "monk": "Rin Oyaa",
+    "trial": "Directing the Wind",
+    "main_item": "Ancient Core",
+    "region": "Hebra",
+    "landmark": "Snowfield Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "086",
+    "monk": "Hawa Koth",
+    "trial": "The Current Solution",
+    "main_item": "Ancient Core, Gold Rupee",
+    "region": "Wasteland",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "087",
+    "monk": "Kema Zoos",
+    "trial": "A Delayed Puzzle",
+    "main_item": "Moonlight Scimitar",
+    "region": "Wasteland",
+    "quest": "The Silent Swordswomen",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "088",
+    "monk": "Tho Kayu",
+    "trial": "Tho Kayu's Blessing",
+    "main_item": "Golden Bow",
+    "region": "Wasteland",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "089",
+    "monk": "Raqa Zunzo",
+    "trial": "Raqa Zunzo's Blessing",
+    "main_item": "Radiant Shield",
+    "region": "Wasteland",
+    "quest": "The Undefeated Champ",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "090",
+    "monk": "Misae Suma",
+    "trial": "Misae Suma's Blessing",
+    "main_item": "Diamond",
+    "region": "Wasteland",
+    "quest": "The Perfect Drink",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "091",
+    "monk": "Dila Maag",
+    "trial": "Dila Maag's Blessing",
+    "main_item": "Barbarian Armor",
+    "region": "Wasteland",
+    "quest": "The Desert Labyrinth",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "092",
+    "monk": "Korsh O'hu",
+    "trial": "Korsh O'hu's Blessing",
+    "main_item": "Flamespear",
+    "region": "Wasteland",
+    "quest": "The Seven Heroines",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "093",
+    "monk": "Kay Noh",
+    "trial": "Power of Electricity",
+    "main_item": "Gerudo Scimitar",
+    "region": "Wasteland",
+    "landmark": "Gerudo Canyon Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "094",
+    "monk": "Dako Tah",
+    "trial": "Electric Path",
+    "main_item": "Moonlight Scimitar, Radiant Shield, Ancient Core",
+    "region": "Wasteland",
+    "quest": "The Eye of the Sandstorm",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "095",
+    "monk": "Suma Sahma",
+    "trial": "Suma Sahma's Blessing",
+    "main_item": "Moonlight Scimitar",
+    "region": "Wasteland",
+    "quest": "Secret of the Snowy Peaks",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "096",
+    "monk": "Jee Noh",
+    "trial": "On the Move",
+    "main_item": "Opal",
+    "region": "Wasteland",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "097",
+    "monk": "Daqo Chisay",
+    "trial": "The Whole Picture",
+    "main_item": "Thunderblade",
+    "region": "Wasteland",
+    "landmark": "Gerudo Town",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "098",
+    "monk": "Keeha Yoog",
+    "trial": "Keeha Yoog's Blessing",
+    "main_item": "Diamond",
+    "region": "Gerudo",
+    "quest": "Cliffside Etchings",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "099",
+    "monk": "Kuh Takkar",
+    "trial": "Melting Ice Hazard",
+    "main_item": "Frostblade",
+    "region": "Gerudo",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "100",
+    "monk": "Kema Kosassa",
+    "trial": "A Major Test of Strength",
+    "main_item": "Silver Rupee",
+    "region": "Gerudo",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "101",
+    "monk": "Sasa Kai",
+    "trial": "A Modest Test of Strength",
+    "main_item": "Frostblade",
+    "region": "Gerudo",
+    "quest": "The Sign of the Shadow",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "102",
+    "monk": "Joloo Nah",
+    "trial": "Joloo Nah Apparatus",
+    "main_item": "Golden Claymore, Gerudo Spear",
+    "region": "Gerudo",
+    "quest": "A Test of Will",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "103",
+    "monk": "Sho Dantu",
+    "trial": "Two Bombs",
+    "main_item": "Silver Rupee",
+    "region": "Gerudo",
+    "quest": "A Test of Will",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "104",
+    "monk": "Shora Hah",
+    "trial": "Blue Flame",
+    "main_item": "Royal Bow, Giant Ancient Core, Great Flameblade, Forest Dweller’s Sword",
+    "region": "Eldin",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "105",
+    "monk": "Daqa Koh",
+    "trial": "Stalled Flight",
+    "main_item": "Silver Rupee",
+    "region": "Eldin",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "106",
+    "monk": "Qua Raym",
+    "trial": "A Balanced Approach",
+    "main_item": "Knight's Claymore",
+    "region": "Eldin",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "107",
+    "monk": "Tah Muhl",
+    "trial": "Passing the Flame",
+    "main_item": "Ruby",
+    "region": "Eldin",
+    "quest": "A Landscape of a Stable",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "108",
+    "monk": "Mo'a Keet",
+    "trial": "Metal Makes a Path",
+    "main_item": "Ruby, Knight's Broadsword",
+    "region": "Eldin",
+    "landmark": "Foothill Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "109",
+    "monk": "Sah Dahaj",
+    "trial": "Power of Fire",
+    "main_item": "Knight's Bow",
+    "region": "Eldin",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "110",
+    "monk": "Gorae Torr",
+    "trial": "Gorae Torr's Blessing",
+    "main_item": "Great Frostblade",
+    "region": "Eldin",
+    "quest": "The Gut Check Challenge",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "111",
+    "monk": "Kayra Mah",
+    "trial": "Greedy Hill",
+    "main_item": "Bomb Arrows, Ruby",
+    "region": "Eldin",
+    "quest": "A Brother's Roast",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "112",
+    "monk": "Shae Mo'sah",
+    "trial": "Swinging Flames",
+    "main_item": "Ice Arrows, Ruby",
+    "region": "Eldin",
+    "landmark": "Goron City",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "113",
+    "monk": "Zuna Kai",
+    "trial": "Zuna Kai's Blessing",
+    "main_item": "Flameblade",
+    "region": "Akkala",
+    "quest": "The Skull's Eye",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "114",
+    "monk": "Ze Kasho",
+    "trial": "Ze Kasho Apparatus",
+    "main_item": "Silverscale Spear",
+    "region": "Akkala",
+    "landmark": "South Akkala Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "115",
+    "monk": "Ke'nai Shakah",
+    "trial": "A Modest Test of Strength",
+    "main_item": "Sapphire",
+    "region": "Akkala",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "116",
+    "monk": "Ritaag Zumo",
+    "trial": "Ritaag Zumo's Blessing",
+    "main_item": "Giant Ancient Core",
+    "region": "Akkala",
+    "quest": "Into the Vortex",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "117",
+    "monk": "Tutsuwa Nima",
+    "trial": "A Major Test of Strength",
+    "main_item": "Flamespear",
+    "region": "Akkala",
+    "quest": "The Spring of Power",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "118",
+    "monk": "Tu Ka'loh",
+    "trial": "Tu Ka'loh's Blessing",
+    "main_item": "Barbarian Helm",
+    "region": "Akkala",
+    "quest": "Trail of the Labyrinth",
+    "missing_images": ["external", "internal", "quest", "title"]
+  },
+  {
+    "id": "119",
+    "monk": "Dah Hesho",
+    "trial": "A Minor Test of Strength",
+    "main_item": "Giant Ancient Core",
+    "region": "Akkala",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "120",
+    "monk": "Katosa Aug",
+    "trial": "Katosa Aug Apparatus",
+    "main_item": "Great Frostblade",
+    "region": "Akkala",
+    "landmark": "East Akkala Stable",
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "121",
+    "monk": "Yowaka Ita",
+    "trial": "Collected Soul",
+    "main_item": "Bomb Arrows, Phrenic Bow",
+    "region": "Great Plateau",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "122",
+    "monk": "Rohta Chiga",
+    "trial": "Stop to Start",
+    "main_item": "Forest Dweller's Shield",
+    "region": "Great Plateau",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "123",
+    "monk": "Ruvo Korbah",
+    "trial": "A Major Test of Strength+",
+    "main_item": "Bomb Arrows, Giant Ancient Core",
+    "region": "Great Plateau",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "124",
+    "monk": "Etsu Korima",
+    "trial": "Path of Light",
+    "main_item": "Gold Rupee",
+    "region": "Great Plateau",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "125",
+    "monk": "Kee Dafunia",
+    "trial": "The Melting Point",
+    "main_item": "Frostblade",
+    "region": "Lanayru",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "126",
+    "monk": "Sato Kado",
+    "trial": "Support and Guidance",
+    "main_item": "Giant Ancient Core",
+    "region": "Lanayru",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "127",
+    "monk": "Mah Eliya",
+    "trial": "Secret Stairway",
+    "main_item": "Royal Shield",
+    "region": "Lanayru",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "128",
+    "monk": "Kamia Omanu",
+    "trial": "Moving Targets",
+    "main_item": "Diamond",
+    "region": "Eldin",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "129",
+    "monk": "Sharo Lun",
+    "trial": "Blind Spots",
+    "main_item": "Great Flameblade",
+    "region": "Eldin",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "130",
+    "monk": "Rinu Honkia",
+    "trial": "Block the Blaze",
+    "main_item": "Stone Smasher",
+    "region": "Eldin",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "131",
+    "monk": "Shira Gomar",
+    "trial": "Aim for Stillness",
+    "main_item": "Bomb Arrows",
+    "region": "Tabantha",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "132",
+    "monk": "Kiah Toza",
+    "trial": "Master the Orb",
+    "main_item": "Falcon Bow",
+    "region": "Tabantha",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "133",
+    "monk": "Noe Rajee",
+    "trial": "The Four Winds",
+    "main_item": "Shield of the Mind's Eye",
+    "region": "Tabantha",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "134",
+    "monk": "Keive Tala",
+    "trial": "Big or Small",
+    "main_item": "Radiant Shield",
+    "region": "Wasteland",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "135",
+    "monk": "Takama Shiri",
+    "trial": "Dual Purpose",
+    "main_item": "Royal Bow",
+    "region": "Wasteland",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  },
+  {
+    "id": "136",
+    "monk": "Kihiro Moh",
+    "trial": "Inside the Box",
+    "main_item": "Thunderspear",
+    "region": "Wasteland",
+    "dlc": true,
+    "missing_images": ["external", "internal", "title"]
+  }
+]
