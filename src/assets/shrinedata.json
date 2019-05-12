@@ -453,8 +453,7 @@
     "trial": "A Modest Test of Strength",
     "main_item": "Frostblade",
     "region": "Ridgeland",
-    "quest": "Under a Red Moon",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Under a Red Moon"
   },
   {
     "id": "061",
@@ -554,16 +553,14 @@
     "monk": "Hia Miu",
     "trial": "A Major Test of Strength",
     "main_item": "Sapphire",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "074",
     "monk": "To Quomo",
     "trial": "To Quomo's Blessing",
     "main_item": "Royal Claymore",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "075",
@@ -571,32 +568,28 @@
     "trial": "A Major Test of Strength",
     "main_item": "Diamond",
     "region": "Hebra",
-    "quest": "The Bird in the Mountains",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Bird in the Mountains"
   },
   {
     "id": "076",
     "monk": "Shada Naw",
     "trial": "Red Giveaway",
     "main_item": "Great Frostblade",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "077",
     "monk": "Rok Uwog",
     "trial": "Power of Reach",
     "main_item": "Drillshaft",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "078",
     "monk": "Sha Gehma",
     "trial": "Shift and Lock",
     "main_item": "Royal Broadsword",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "079",
@@ -604,24 +597,21 @@
     "trial": "Qaza Tokki's Blessing",
     "main_item": "Barbarian Leg Wraps",
     "region": "Hebra",
-    "quest": "Trial on the Cliff",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Trial on the Cliff"
   },
   {
     "id": "080",
     "monk": "Goma Asaagh",
     "trial": "A Major Test of Strength",
     "main_item": "Royal Claymore",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "081",
     "monk": "Maka Rah",
     "trial": "Steady Thy Heart",
     "main_item": "Bomb Arrows, Diamond, Ancient Core",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "082",
@@ -635,16 +625,14 @@
     "monk": "Lanno Kooh",
     "trial": "Lanno Kooh's Blessing",
     "main_item": "Gold Rupee",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "084",
     "monk": "Gee Ha'rah",
     "trial": "Tandem",
     "main_item": "Diamond",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "085",
@@ -652,8 +640,7 @@
     "trial": "Directing the Wind",
     "main_item": "Ancient Core",
     "region": "Hebra",
-    "landmark": "Snowfield Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Snowfield Stable"
   },
   {
     "id": "086",
