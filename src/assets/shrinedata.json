@@ -99,7 +99,7 @@
     "id": "014",
     "monk": "Chaas Qeta",
     "trial": "A Major Test of Strength",
-    "main_item": "Chaas Qeta",
+    "main_item": "Climbing Gear",
     "region": "Hateno"
   },
   {
@@ -391,8 +391,7 @@
     "trial": "Halt the Tilt",
     "main_item": "Traveler’s Sword, Ancient Core",
     "region": "Faron",
-    "landmark": "Lakeside Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Lakeside Stable"
   },
   {
     "id": "053",
@@ -400,16 +399,14 @@
     "trial": "Qukah Nata's Blessing",
     "main_item": "Rubber Tights",
     "region": "Faron",
-    "quest": "A Song of Storms",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "A Song of Storms"
   },
   {
     "id": "054",
     "monk": "Shoda Sah",
     "trial": "Impeccable Timing",
     "main_item": "Ice Arrows",
-    "region": "Faron",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Faron"
   },
   {
     "id": "055",
@@ -417,8 +414,7 @@
     "trial": "Tawa Jinn's Blessing",
     "main_item": "Great Thunderblade",
     "region": "Faron",
-    "quest": "The Three Giant Brothers",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Three Giant Brothers"
   },
   {
     "id": "056",
@@ -426,8 +422,7 @@
     "trial": "A Weighty Decision",
     "main_item": "Knight's Broadsword",
     "region": "Faron",
-    "landmark": "Lurelin Village",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Lurelin Village"
   },
   {
     "id": "057",
@@ -435,16 +430,14 @@
     "trial": "Quick Thinking",
     "main_item": "Knight's Claymore",
     "region": "Faron",
-    "quest": "A Fragmented Monument",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "A Fragmented Monument"
   },
   {
     "id": "058",
     "monk": "Muwo Jeem",
     "trial": "A Modest Test of Strength",
     "main_item": "Knight's Bow",
-    "region": "Faron",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Faron"
   },
   {
     "id": "059",
@@ -452,7 +445,7 @@
     "trial": "Korgu Chideh's Blessing",
     "main_item": "Gold Rupee",
     "region": "Faron",
-    "missing_images": ["external", "internal", "title"]
+    "quest": "Stranded on Eventide"
   },
   {
     "id": "060",
@@ -469,8 +462,7 @@
     "trial": "Aim for the Moment",
     "main_item": "Falcon Bow",
     "region": "Ridgeland",
-    "landmark": "Tabantha Bridge Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Tabantha Bridge Stable"
   },
   {
     "id": "062",
@@ -478,32 +470,28 @@
     "trial": "Moving in Parallel",
     "main_item": "Great Thunderblade",
     "region": "Ridgeland",
-    "quest": "The Two Rings",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Two Rings"
   },
   {
     "id": "063",
     "monk": "Mogg Latan",
     "trial": "Synced Swing",
     "main_item": "Forest Dweller's Spear, Forest Dweller's Bow, Gold Rupee",
-    "region": "Ridgeland",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Ridgeland"
   },
   {
     "id": "064",
     "monk": "Zalta Wa",
     "trial": "Two Orbs to Guide You",
     "main_item": "Knight's Bow",
-    "region": "Ridgeland",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Ridgeland"
   },
   {
     "id": "065",
     "monk": "Maag No'rah",
     "trial": "Maag No'rah's Blessing",
     "main_item": "Silver Rupee",
-    "region": "Ridgeland",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Ridgeland"
   },
   {
     "id": "066",
@@ -511,8 +499,7 @@
     "trial": "Buried Secrets",
     "main_item": "Rubber Armor",
     "region": "Ridgeland",
-    "quest": "Trial of Thunder",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Trial of Thunder"
   },
   {
     "id": "067",
@@ -822,7 +809,6 @@
     "trial": "Two Bombs",
     "main_item": "Silver Rupee",
     "region": "Gerudo",
-    "quest": "A Test of Will",
     "missing_images": ["external", "internal", "quest", "title"]
   },
   {

@@ -27,13 +27,27 @@
     </select><br />
 
     <strong>Include DLC?</strong>
-    <input type="checkbox" v-model="includeDLC" @change="newQuestion" />
+    <input type="checkbox" v-model="includeDLC" @change="newQuestion" /><br />
+
+    <strong>Sounds?</strong>
+    <input type="checkbox" v-model="soundOn" />
   </div>
 </template>
 
 <script>
 import shrines from '../assets/shrinedata.json'
 import _ from 'lodash'
+
+function Sound (src) {
+  this.sound = document.createElement('audio')
+  this.sound.src = src
+  this.sound.setAttribute('preload', 'auto')
+  this.sound.setAttribute('controls', 'none')
+  this.sound.style.display = 'none'
+  document.body.appendChild(this.sound)
+  this.play = () => this.sound.play()
+}
+
 export default {
   name: 'Quiz',
   mounted () {
@@ -51,6 +65,7 @@ export default {
       difficulty: 'normal',
       includeDLC: false,
       questionTimeout: 2000,
+      soundOn: true,
       quizTypes: {
         easy: [
           'guessTheTrial',
@@ -79,7 +94,9 @@ export default {
         ]
       },
       answered: null,
-      correct: null
+      correct: null,
+      correctSound: new Sound('./static/correct.wav'),
+      incorrectSound: new Sound('./static/incorrect.wav')
     }
   },
   methods: {
@@ -98,9 +115,16 @@ export default {
       if (index > this.chooseFrom - 1) {
         return
       }
-      this.$emit('answer', this.question.choices[index] === this.question.choices[this.question.answer], this.quiz)
+      if (this.soundOn) {
+        if (index === this.question.answer) {
+          this.correctSound.play()
+        } else {
+          this.incorrectSound.play()
+        }
+      }
+      this.$emit('answer', index === this.question.answer, this.quiz)
       this.answered = index
-      this.correct = this.question.choices[index] === this.question.choices[this.question.answer] ? index : this.question.answer
+      this.correct = this.question.answer
 
       setTimeout(() => {
         this.newQuestion()
@@ -189,7 +213,7 @@ export default {
     guessTheMonk () {
       const set = _.filter(shrines, o => {
         return o.trial.indexOf(o.monk) === -1 &&
-               o.trial.indexOf('Test of Strength') === -1 &&
+               (this.difficulty !== 'hard' && o.trial.indexOf('Test of Strength') === -1) &&
                this.hasImages(o, ['internal', 'title']) &&
                this.DLC(o)
       })
@@ -214,13 +238,13 @@ export default {
           if (merged[shrine.region]) {
             return (o.region === shrine.region || o.region === merged[shrine.region]) && // same region merged
                 o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
-                o.trial.indexOf('Test of Strength') === -1 && // exclude similar trials
+                (this.difficulty !== 'hard' && o.trial.indexOf('Test of Strength') === -1) && // exclude similar trials
                 this.DLC(o) && // is DLC enabled? if so, mix it in
                 o.id !== shrine.id // no duplicates
           }
           return (o.region === shrine.region) && // same region
                  o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
-                 o.trial.indexOf('Test of Strength') === -1 && // exclude similar trials
+                 (this.difficulty !== 'hard' && o.trial.indexOf('Test of Strength') === -1) && // exclude similar trials
                  this.DLC(o) && // is DLC enabled? if so, mix it in
                  o.id !== shrine.id // no duplicates
         }
@@ -418,9 +442,11 @@ export default {
         o => {
           if (shrine.dlc) {
             return o.dlc === true &&
+                   o.main_item !== shrine.main_item &&
                    o.id !== shrine.id
           }
           return this.DLC(o) &&
+                 o.main_item !== shrine.main_item &&
                  o.id !== shrine.id
         }
       )), 0, this.chooseFrom - 1)))
@@ -489,12 +515,14 @@ a {
 }
 .choice button.answered {
   color: #4b2c25;
+  border-color: #4b2c25;
   background-color: #d0a298;
   opacity: 1;
 }
 .choice button.correct,
 .choice button.correct.answered {
   color: #2b472b;
+  border-color: #2b472b;
   background-color: #98d098;
   opacity: 1;
 }
