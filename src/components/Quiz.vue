@@ -1,11 +1,11 @@
 <template>
   <div class="quiz" v-if="question">
     <h2 v-html="question.title"></h2>
-    <img :src="(answered === null) ? `../static/images/${question.image}.jpg` : `../static/images/${question.imageAnswered}.jpg`" class="image"/>
+    <img :src="(answered === null) ? `../static/images/${question.image}.jpg` : `../static/images/${question.imageAnswered}.jpg`" class="image" :class="{highlight: answered !== null}"/>
     <br />
     <strong>Choices:</strong>
     <ol class="choices">
-      <li v-for="(choice, index) in question.choices" class="choice">
+      <li v-for="(choice, index) in question.choices" class="choice" :key="index">
         <button @click="answer(index)" :class="{correct: index === correct, answered: index === answered}" :disabled="answered !== null">
           {{ abc[index] }}. {{ choice }}
         </button>
@@ -14,14 +14,14 @@
 
     <strong>Up to how many choices?</strong>
     <select v-model="chooseFrom" @change="newQuestion">
-      <option v-for="num in 7">
+      <option v-for="num in 7" :key="num">
          {{ num + 1 }}
       </option>
     </select><br />
 
     <strong>Difficulty</strong>
-    <select v-model="difficulty" @change="newQuestion">
-      <option v-for="(quizes, difficulty) in quizTypes">
+    <select v-model="difficulty" @change="() => {newQuestion();resetScore()}">
+      <option v-for="(quizes, difficulty) in quizTypes" :key="difficulty">
          {{ difficulty }}
       </option>
     </select><br />
@@ -32,12 +32,14 @@
 </template>
 
 <script>
-import shrines from '../assets/shrinedata.json';
-import _ from 'lodash';
+import shrines from '../assets/shrinedata.json'
+import _ from 'lodash'
 export default {
   name: 'Quiz',
-  mounted() {
-    this.newQuestion();
+  mounted () {
+    this.newQuestion()
+    document.title = 'Learn the Shrines'
+    document.addEventListener('keypress', this.answerKeypress)
   },
   data () {
     return {
@@ -51,8 +53,9 @@ export default {
       questionTimeout: 2000,
       quizTypes: {
         easy: [
-          'guessTheMonk',
           'guessTheTrial',
+          'guessTheShrineFromQuest',
+          'guessTheShrineFromLandmark',
           'guessTheShrine'
         ],
         normal: [
@@ -80,51 +83,119 @@ export default {
     }
   },
   methods: {
-    newQuestion() {
-      const quiz = this.quizTypes[this.difficulty][_.random(0, this.quizTypes[this.difficulty].length - 1)];
-      this.quiz = quiz;
-      this.question = this[quiz]();
+    newQuestion () {
+      const quizTypes = this.quizTypes[this.difficulty]
+      const quiz = quizTypes[_.random(0, quizTypes.length - 1)]
+      this.answered = null
+      this.correct = null
+      this.quiz = quiz
+      this.question = this[quiz]()
     },
-    randomShrine(shrines) {
-      return shrines[_.random(0, shrines.length - 1)];
+    randomShrine (shrines) {
+      return shrines[_.random(0, shrines.length - 1)]
     },
-    answer(index) {
-      this.$emit('answer', this.question.choices[index] === this.question.choices[this.question.answer]);
-      this.answered = index;
-      this.correct = this.question.choices[index] === this.question.choices[this.question.answer] ? index : this.question.answer;
+    answer (index) {
+      if (index > this.chooseFrom - 1) {
+        return
+      }
+      this.$emit('answer', this.question.choices[index] === this.question.choices[this.question.answer], this.quiz)
+      this.answered = index
+      this.correct = this.question.choices[index] === this.question.choices[this.question.answer] ? index : this.question.answer
+
       setTimeout(() => {
-        this.newQuestion();
-        this.answered = null;
-        this.correct = null;
-      }, this.questionTimeout);
+        this.newQuestion()
+      }, this.questionTimeout)
     },
-    hasImages(shrine, images) {
+    resetScore () {
+      this.$emit('reset')
+    },
+    answerKeypress (e) {
+      const key = e.keyCode
+      switch (key) {
+        case 97: // a
+          this.answer(0)
+          break
+        case 65: // A
+          this.answer(0)
+          break
+        case 98: // b
+          this.answer(1)
+          break
+        case 66: // B
+          this.answer(1)
+          break
+        case 99: // c
+          this.answer(2)
+          break
+        case 67: // C
+          this.answer(2)
+          break
+        case 100: // d
+          this.answer(3)
+          break
+        case 68: // D
+          this.answer(3)
+          break
+        case 101: // e
+          this.answer(4)
+          break
+        case 69: // E
+          this.answer(4)
+          break
+        case 102: // f
+          this.answer(5)
+          break
+        case 70: // F
+          this.answer(5)
+          break
+        case 103: // g
+          this.answer(6)
+          break
+        case 71: // G
+          this.answer(6)
+          break
+        case 104: // g
+          this.answer(7)
+          break
+        case 72: // G
+          this.answer(7)
+          break
+        case 105: // h
+          this.answer(7)
+          break
+        case 73: // H
+          this.answer(7)
+          break
+        default:
+      }
+    },
+    hasImages (shrine, images) {
       if (!shrine.missing_images) {
-        return true;
+        return true
       }
       for (let i = 0; i < images.length; i++) {
         if (shrine.missing_images.indexOf(images[i]) >= 0) {
-          return false;
+          return false
         }
       }
-      return true;
+      return true
     },
-    DLC(shrine) {
+    DLC (shrine) {
       if (!this.includeDLC) {
-        return shrine.dlc != true
+        return shrine.dlc !== true
       }
-      return true;
+      return true
     },
-    guessTheMonk() {
+    guessTheMonk () {
       const set = _.filter(shrines, o => {
-        return  o.trial.indexOf(o.monk) === -1 &&
-                o.trial.indexOf('Test of Strength') === -1 &&
-                this.hasImages(o, ['internal', 'title']) &&
-                this.DLC(o)
-      });
+        return o.trial.indexOf(o.monk) === -1 &&
+               o.trial.indexOf('Test of Strength') === -1 &&
+               this.hasImages(o, ['internal', 'title']) &&
+               this.DLC(o)
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const merged = {
         'Central': 'Ridgeland',
@@ -135,43 +206,43 @@ export default {
       }
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           if (shrine.dlc) {
             return o.dlc === true &&
                    o.id !== shrine.id
           }
           if (merged[shrine.region]) {
-            return (o.region === shrine.region || o.region === merged[shrine.region]) &&
-                o.trial.indexOf(o.monk) === -1 &&
-                o.trial.indexOf('Test of Strength') === -1 &&
-                this.DLC(o) &&
-                o.id !== shrine.id;
+            return (o.region === shrine.region || o.region === merged[shrine.region]) && // same region merged
+                o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
+                o.trial.indexOf('Test of Strength') === -1 && // exclude similar trials
+                this.DLC(o) && // is DLC enabled? if so, mix it in
+                o.id !== shrine.id // no duplicates
           }
-          return (o.region === shrine.region) &&
-                 o.trial.indexOf(o.monk) === -1 &&
-                 o.trial.indexOf('Test of Strength') === -1 &&
-                 this.DLC(o) &&
-                 o.id !== shrine.id
+          return (o.region === shrine.region) && // same region
+                 o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
+                 o.trial.indexOf('Test of Strength') === -1 && // exclude similar trials
+                 this.DLC(o) && // is DLC enabled? if so, mix it in
+                 o.id !== shrine.id // no duplicates
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> o.monk),
+        choices: _.map(choices, o => o.monk),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-internal`,
         imageAnswered: `${shrine.id}-title`,
         title: `The trial <strong>${shrine.trial}</strong> is in which shrine?`
       }
     },
-    guessTheTrial() {
+    guessTheTrial () {
       const set = _.filter(shrines, o => {
         return o.trial.indexOf(o.monk) === -1 &&
                this.hasImages(o, ['internal', 'title']) &&
                this.DLC(o)
-      });
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const merged = {
         'Akkala': 'Lanayru',
@@ -179,170 +250,172 @@ export default {
       }
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           if (shrine.dlc) {
             return o.dlc === true &&
                    o.id !== shrine.id
           }
           if (merged[shrine.region]) {
             return (o.region === shrine.region ||
-                   o.region === merged[shrine.region]) &&
-                   o.trial.indexOf(o.monk) === -1 &&
-                   this.DLC(o) &&
-                   o.id !== shrine.id;
+                   o.region === merged[shrine.region]) && // same region merged
+                   o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
+                   this.DLC(o) && // is DLC enabled? if so, mix it in
+                   o.trial !== shrine.trial && // for 'twin memories'
+                   o.id !== shrine.id
           }
-          return (o.region === shrine.region) &&
-                 o.trial.indexOf(o.monk) === -1 &&
-                 this.DLC(o) &&
+          return (o.region === shrine.region) && // same region
+                 o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
+                 this.DLC(o) && // is DLC enabled? if so, mix it in
+                 o.trial !== shrine.trial && // for 'twin memories'
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> o.trial),
+        choices: _.map(choices, o => o.trial),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-internal`,
         imageAnswered: `${shrine.id}-title`,
         title: `The shrine <strong>${shrine.monk}</strong> has which trial for you?`
       }
     },
-    guessTheShrine() {
+    guessTheShrine () {
       const set = _.filter(shrines, o => {
         return this.hasImages(o, ['external', 'title']) &&
-        this.DLC(o)
-      });
+               this.DLC(o)
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           if (shrine.dlc) {
             return o.dlc === true &&
-                   o.id !== shrine.id
+                   o.id !== shrine.id // only select other DLC shrines
           }
           return (o.region === shrine.region) &&
-                 this.DLC(o) &&
+                 this.DLC(o) && // is DLC enabled? if so, mix it in
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> `${o.monk}: ${o.trial}`),
+        choices: _.map(choices, o => `${o.monk}: ${o.trial}`),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
         title: `This shrine is in the <strong>${shrine.region}</strong> region`
       }
     },
-    guessTheShrineFromQuest() {
+    guessTheShrineFromQuest () {
       const set = _.filter(shrines, o => {
         return o.quest &&
                this.hasImages(o, ['quest', 'title'])
-      });
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           return o.quest &&
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> `${o.monk}: ${o.trial}`),
+        choices: _.map(choices, o => `${o.monk}: ${o.trial}`),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-quest`,
         imageAnswered: `${shrine.id}-title`,
         title: `Completing the <strong>${shrine.quest}</strong> quest reveals which shrine?`
       }
     },
-    guessTheShrineFromLandmark() {
+    guessTheShrineFromLandmark () {
       const set = _.filter(shrines, o => {
-        return o.landmark  &&
+        return o.landmark &&
                this.hasImages(o, ['external', 'title'])
-      });
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           return o.landmark &&
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> `${o.monk}: ${o.trial}`),
+        choices: _.map(choices, o => `${o.monk}: ${o.trial}`),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
         title: `<strong>${shrine.landmark}</strong> is home to what shrine?`
       }
     },
-    guessTheLandmark() {
+    guessTheLandmark () {
       const set = _.filter(shrines, o => {
         return o.landmark &&
                this.hasImages(o, ['external', 'title'])
-      });
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           return o.landmark &&
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> `${o.landmark}`),
+        choices: _.map(choices, o => `${o.landmark}`),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-title`,
         imageAnswered: `${shrine.id}-external`,
         title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is near what landmark?`
       }
     },
-    guessTheQuest() {
+    guessTheQuest () {
       const set = _.filter(shrines, o => {
         return o.quest &&
                this.hasImages(o, ['title', 'quest'])
-      });
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           return o.quest &&
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> `${o.quest}`),
+        choices: _.map(choices, o => `${o.quest}`),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-title`,
         imageAnswered: `${shrine.id}-quest`,
         title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is the shrine for which quest?`
       }
     },
-    guessTheItem() {
+    guessTheItem () {
       const set = _.filter(shrines, o => {
         return o.main_item &&
                this.hasImages(o, ['external', 'title']) &&
                this.DLC(o)
-      });
+      })
 
-      if (set.length < 1) this.newQuestion();
-      const shrine = this.randomShrine(set);
+      if (set.length < 1) this.newQuestion()
+      const shrine = this.randomShrine(set)
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
-        (o)=> {
+        o => {
           if (shrine.dlc) {
             return o.dlc === true &&
                    o.id !== shrine.id
@@ -350,10 +423,10 @@ export default {
           return this.DLC(o) &&
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)));
+      )), 0, this.chooseFrom - 1)))
 
       return {
-        choices: _.map(choices, o=> `${o.main_item}`),
+        choices: _.map(choices, o => `${o.main_item}`),
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
@@ -433,6 +506,10 @@ a {
   border-radius: 5px;
   background: rgba(255,255,255,0.5);
 }
+
+.image.highlight {
+  background-color: #98d098;
+}
 </style>
 <!--
 
@@ -463,7 +540,6 @@ Type of quizes:
 8. HARD MODE - Guess the main item:
    - choices: shrines in the same region
    - image: internal shrine image (with title)
-
 
 Images needed:
 

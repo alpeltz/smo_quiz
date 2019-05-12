@@ -60,8 +60,7 @@
     "monk": "Shee Venath",
     "trial": "Twin Memories",
     "main_item": "Serpentine Spear",
-    "region": "Dueling Peaks",
-    "missing_images": ["title"]
+    "region": "Dueling Peaks"
   },
   {
     "id": "010",
@@ -155,8 +154,7 @@
     "monk": "Daka Tuss",
     "trial": "Sunken Scoop",
     "main_item": "Silver Longsword",
-    "region": "Lanayru",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lanayru"
   },
   {
     "id": "022",
@@ -164,32 +162,28 @@
     "trial": "Shields from Water",
     "main_item": "Knight's Broadsword, Ancient Core",
     "region": "Lanayru",
-    "landmark": "Wetland Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Wetland Stable"
   },
   {
     "id": "023",
     "monk": "Soh Kofi",
     "trial": "A Minor Test of Strength",
     "main_item": "Knight's Bow",
-    "region": "Lanayru",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lanayru"
   },
   {
     "id": "024",
     "monk": "Sheh Rata",
     "trial": "Speed of Light",
     "main_item": "Giant Boomerang",
-    "region": "Lanayru",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lanayru"
   },
   {
     "id": "025",
     "monk": "Rucco Maag",
     "trial": "Five Flames",
     "main_item": "Silver Bow",
-    "region": "Lanayru",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lanayru"
   },
   {
     "id": "026",
@@ -197,8 +191,7 @@
     "trial": "Shai Yota's Blessing",
     "main_item": "Great Flameblade",
     "region": "Lanayru",
-    "quest": "Master of the Wind",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Master of the Wind"
   },
   {
     "id": "027",
@@ -206,8 +199,7 @@
     "trial": "Dagah Keek's Blessing",
     "main_item": "Silver Rupee",
     "region": "Lanayru",
-    "quest": "The Ceremonial Song",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Ceremonial Song"
   },
   {
     "id": "028",
@@ -215,16 +207,14 @@
     "trial": "Pushing Power",
     "main_item": "Zora Spear",
     "region": "Lanayru",
-    "landmark": "Zora's Domain",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Zora's Domain"
   },
   {
     "id": "029",
     "monk": "Kah Mael",
     "trial": "Drop and Rise",
     "main_item": "Diamond",
-    "region": "Lanayru",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lanayru"
   },
   {
     "id": "030",
@@ -232,8 +222,7 @@
     "trial": "Rona Kachta's Blessing",
     "main_item": "Great Flameblade",
     "region": "Woodland",
-    "landmark": "Forgotten Temple",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Forgotten Temple"
   },
   {
     "id": "031",
@@ -241,8 +230,7 @@
     "trial": "Drawing Parabolas",
     "main_item": "Thunderblade",
     "region": "Woodland",
-    "landmark": "Serenne Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Serenne Stable"
   },
   {
     "id": "032",
@@ -250,8 +238,7 @@
     "trial": "Kuhn Sidajj's Blessing",
     "main_item": "Giant Ancient Core",
     "region": "Woodland",
-    "quest": "Trial of Second Sight",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Trial of Second Sight"
   },
   {
     "id": "033",
@@ -259,8 +246,7 @@
     "trial": "Daag Chokah's Blessing",
     "main_item": "Ancient Core",
     "region": "Woodland",
-    "quest": "The Lost Pilgrimage",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Lost Pilgrimage"
   },
   {
     "id": "034",
@@ -268,8 +254,7 @@
     "trial": "Fateful Stars",
     "main_item": "Knight's Claymore",
     "region": "Woodland",
-    "landmark": "Korok Forest",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Korok Forest"
   },
   {
     "id": "035",
@@ -277,8 +262,7 @@
     "trial": "Maag Halan's Blessing",
     "main_item": "Giant Ancient Core",
     "region": "Woodland",
-    "quest": "The Test of Wood",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Test of Wood"
   },
   {
     "id": "036",
@@ -286,8 +270,7 @@
     "trial": "Ketoh Wawai's Blessing",
     "main_item": "Ancient Core",
     "region": "Woodland",
-    "quest": "Shrouded Shrine",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Shrouded Shrine"
   },
   {
     "id": "037",
@@ -295,16 +278,14 @@
     "trial": "Tempered Power",
     "main_item": "Giant Ancient Core",
     "region": "Woodland",
-    "landmark": "Woodland Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Woodland Stable"
   },
   {
     "id": "038",
     "monk": "Dah Kaso",
     "trial": "A Minor Test of Strength",
     "main_item": "Ancient Core",
-    "region": "Central",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Central"
   },
   {
     "id": "039",
@@ -312,8 +293,7 @@
     "trial": "Passing of the Gates",
     "main_item": "Feathered Edge",
     "region": "Central",
-    "landmark": "Outskirt Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Outskirt Stable"
   },
   {
     "id": "040",
@@ -321,16 +301,14 @@
     "trial": "Metal Connections",
     "main_item": "Amber",
     "region": "Central",
-    "landmark": "Riverside Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Riverside Stable"
   },
   {
     "id": "041",
     "monk": "Kaam Ya'tak",
     "trial": "Trial of Power",
     "main_item": "Edge of Duality, Knight's Broadsword, Ancient Core, Silver Rupee, Diamond",
-    "region": "Central",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Central"
   },
   {
     "id": "042",
@@ -338,15 +316,14 @@
     "trial": "A Minor Test of Strength",
     "main_item": "Royal Halberd",
     "region": "Central",
-    "missing_images": ["external", "internal", "title"]
+    "missing_images": ["internal"]
   },
   {
     "id": "043",
     "monk": "Noya Neha",
     "trial": "A Minor Test of Strength",
     "main_item": "Knight's Shield",
-    "region": "Central",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Central"
   },
   {
     "id": "044",
@@ -354,24 +331,21 @@
     "trial": "A Major Test of Strength",
     "main_item": "Flameblade",
     "region": "Central",
-    "landmark": "Hyrule Castle",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Hyrule Castle"
   },
   {
     "id": "045",
     "monk": "Namika Ozz",
     "trial": "A Modest Test of Strength",
     "main_item": "Frostspear",
-    "region": "Central",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Central"
   },
   {
     "id": "046",
     "monk": "Ishto Soh",
     "trial": "Bravery's Grasp",
     "main_item": "Ancient Core",
-    "region": "Lake",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lake"
   },
   {
     "id": "047",
@@ -379,8 +353,7 @@
     "trial": "A Modest Test of Strength",
     "main_item": "Royal Broadsword",
     "region": "Lake",
-    "quest": "Guardian Slideshow",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Guardian Slideshow"
   },
   {
     "id": "048",
@@ -388,24 +361,21 @@
     "trial": "Metal Doors Open the Way",
     "main_item": "Traveler’s Bow, Gold Rupee",
     "region": "Lake",
-    "landmark": "Highland Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Highland Stable"
   },
   {
     "id": "049",
     "monk": "Pumaag Nitae",
     "trial": "A Minor Test of Strength",
     "main_item": "Boomerang",
-    "region": "Lake",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lake"
   },
   {
     "id": "050",
     "monk": "Ya Naga",
     "trial": "Shatter the Heavens",
     "main_item": "Eightfold Blade",
-    "region": "Lake",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Lake"
   },
   {
     "id": "051",
@@ -413,8 +383,7 @@
     "trial": "Shae Katha's Blessing",
     "main_item": "Thunderspear",
     "region": "Lake",
-    "quest": "The Serpent's Jaw",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Serpent's Jaws"
   },
   {
     "id": "052",
@@ -551,8 +520,7 @@
     "trial": "Path of Hidden Winds",
     "main_item": "Knight's Bow, Purple Rupee",
     "region": "Tabantha",
-    "landmark": "Flight Range",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Flight Range"
   },
   {
     "id": "068",
@@ -560,8 +528,7 @@
     "trial": "The Winding Route",
     "main_item": "Flameblade",
     "region": "Tabantha",
-    "quest": "Recital at Warbler's Nest",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Recital at Warbler's Nest"
   },
   {
     "id": "069",
@@ -569,17 +536,15 @@
     "trial": "Windmills",
     "main_item": "Sapphire, Feathered Spear, Ancient Core",
     "region": "Tabantha",
-    "landmark": "Rito Village",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Rito Village"
   },
   {
     "id": "070",
     "monk": "Bareeda Naag",
     "trial": "Cannon",
-    "main_item": "Falcon Bow, Diamond",
+    "main_item": "Swallow Bow, Diamond",
     "region": "Tabantha",
-    "quest": "The Ancient Rito Song",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Ancient Rito Song"
   },
   {
     "id": "071",
@@ -588,15 +553,14 @@
     "main_item": "Royal Halberd",
     "region": "Tabantha",
     "landmark": "Ancient Columns",
-    "missing_images": ["external", "internal", "title"]
+    "missing_images": ["internal"]
   },
   {
     "id": "072",
     "monk": "Kah Okeo",
     "trial": "Wind Guide",
-    "main_item": "Forest Dweller's Sword, Giant Ancient Core, Thunderspear",
-    "region": "Tabantha",
-    "missing_images": ["external", "internal", "title"]
+    "main_item": "Gold Rupee, Forest Dweller's Sword, Giant Ancient Core, Thunderspear",
+    "region": "Tabantha"
   },
   {
     "id": "073",
@@ -677,8 +641,7 @@
     "monk": "Dunba Taag",
     "trial": "Build and Release",
     "main_item": "Great Thunderblade, Falcon Bow",
-    "region": "Hebra",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Hebra"
   },
   {
     "id": "083",
