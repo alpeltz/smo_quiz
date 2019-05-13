@@ -73,6 +73,7 @@ export default {
     },
     resetScore () {
       if (this.answered > 0 && window.confirm('This will permanently clear your score.')) {
+        this.showMore = false
         this.answered = 0
         this.score = 0
         this.scoreByType = {}

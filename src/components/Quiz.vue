@@ -1,7 +1,9 @@
 <template>
   <div class="quiz" v-if="question">
-    <h2 v-html="question.title"></h2>
-    <img :src="(answered === null) ? `../static/images/${question.image}.jpg` : `../static/images/${question.imageAnswered}.jpg`" class="image" :class="{highlight: answered !== null}"/>
+    <h2 v-html="question.title" v-if="answered === null"></h2>
+    <h2 :class="{'alert-correct': answered === correct, 'alert-incorrect': answered !== correct}" v-else v-html="(answered === correct) ? 'Yep! It\'s <strong>'+question.choices[correct]+'</strong>' : 'Sorry, the answer was <strong>'+question.choices[correct]+'</strong>.'"></h2>
+
+    <img :src="(answered === null) ? `../static/images/${question.image}.jpg` : `../static/images/${question.imageAnswered}.jpg`" class="image" :class="{'image-correct': answered === correct && answered !== null, 'image-incorrect': answered !== correct}"/>
     <br />
     <strong>Choices:</strong>
     <ol class="choices">
@@ -261,7 +263,7 @@ export default {
     guessTheTrial () {
       const set = _.filter(shrines, o => {
         return o.trial.indexOf(o.monk) === -1 &&
-               this.hasImages(o, ['internal', 'title']) &&
+               this.hasImages(o, ['external', 'title']) &&
                this.DLC(o)
       })
 
@@ -273,7 +275,7 @@ export default {
         'Woodland': 'Hebra'
       }
 
-      const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
+      const choices = _.shuffle(_.concat(shrine, _.slice(_.uniqBy(_.shuffle(_.filter(shrines,
         o => {
           if (shrine.dlc) {
             return o.dlc === true &&
@@ -293,12 +295,12 @@ export default {
                  o.trial !== shrine.trial && // for 'twin memories'
                  o.id !== shrine.id
         }
-      )), 0, this.chooseFrom - 1)))
+      )), 'trial'), 0, this.chooseFrom - 1)))
 
       return {
         choices: _.map(choices, o => o.trial),
         answer: _.indexOf(choices, shrine),
-        image: `${shrine.id}-internal`,
+        image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
         title: `The shrine <strong>${shrine.monk}</strong> has which trial for you?`
       }
@@ -535,8 +537,18 @@ a {
   background: rgba(255,255,255,0.5);
 }
 
-.image.highlight {
+.image-correct {
   background-color: #98d098;
+}
+.alert-correct {
+  color: #98d098;
+}
+
+.image-incorrect {
+  background-color: #d0a298;
+}
+.alert-incorrect {
+  color: #d0a298;
 }
 </style>
 <!--

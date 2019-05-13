@@ -538,7 +538,6 @@
     "trial": "A Major Test of Strength",
     "main_item": "Royal Halberd",
     "region": "Tabantha",
-    "landmark": "Ancient Columns",
     "missing_images": ["internal"]
   },
   {
@@ -646,9 +645,8 @@
     "id": "086",
     "monk": "Hawa Koth",
     "trial": "The Current Solution",
-    "main_item": "Ancient Core, Gold Rupee",
-    "region": "Wasteland",
-    "missing_images": ["external", "internal", "title"]
+    "main_item": "Ancient Core, Sapphire",
+    "region": "Wasteland"
   },
   {
     "id": "087",
@@ -656,16 +654,14 @@
     "trial": "A Delayed Puzzle",
     "main_item": "Moonlight Scimitar",
     "region": "Wasteland",
-    "quest": "The Silent Swordswomen",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Silent Swordswomen"
   },
   {
     "id": "088",
     "monk": "Tho Kayu",
     "trial": "Tho Kayu's Blessing",
     "main_item": "Golden Bow",
-    "region": "Wasteland",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Wasteland"
   },
   {
     "id": "089",
@@ -673,8 +669,7 @@
     "trial": "Raqa Zunzo's Blessing",
     "main_item": "Radiant Shield",
     "region": "Wasteland",
-    "quest": "The Undefeated Champ",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Undefeated Champ"
   },
   {
     "id": "090",
@@ -682,8 +677,7 @@
     "trial": "Misae Suma's Blessing",
     "main_item": "Diamond",
     "region": "Wasteland",
-    "quest": "The Perfect Drink",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Perfect Drink"
   },
   {
     "id": "091",
@@ -691,8 +685,7 @@
     "trial": "Dila Maag's Blessing",
     "main_item": "Barbarian Armor",
     "region": "Wasteland",
-    "quest": "The Desert Labyrinth",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Desert Labyrinth"
   },
   {
     "id": "092",
@@ -700,8 +693,7 @@
     "trial": "Korsh O'hu's Blessing",
     "main_item": "Flamespear",
     "region": "Wasteland",
-    "quest": "The Seven Heroines",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Seven Heroines"
   },
   {
     "id": "093",
@@ -709,8 +701,7 @@
     "trial": "Power of Electricity",
     "main_item": "Gerudo Scimitar",
     "region": "Wasteland",
-    "landmark": "Gerudo Canyon Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Gerudo Canyon Stable"
   },
   {
     "id": "094",
@@ -718,8 +709,7 @@
     "trial": "Electric Path",
     "main_item": "Moonlight Scimitar, Radiant Shield, Ancient Core",
     "region": "Wasteland",
-    "quest": "The Eye of the Sandstorm",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Eye of the Sandstorm"
   },
   {
     "id": "095",
@@ -727,16 +717,14 @@
     "trial": "Suma Sahma's Blessing",
     "main_item": "Moonlight Scimitar",
     "region": "Wasteland",
-    "quest": "Secret of the Snowy Peaks",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Secret of the Snowy Peaks"
   },
   {
     "id": "096",
     "monk": "Jee Noh",
     "trial": "On the Move",
     "main_item": "Opal",
-    "region": "Wasteland",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Wasteland"
   },
   {
     "id": "097",
@@ -744,8 +732,7 @@
     "trial": "The Whole Picture",
     "main_item": "Thunderblade",
     "region": "Wasteland",
-    "landmark": "Gerudo Town",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Gerudo Town"
   },
   {
     "id": "098",
