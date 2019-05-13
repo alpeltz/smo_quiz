@@ -859,8 +859,7 @@
     "trial": "Zuna Kai's Blessing",
     "main_item": "Flameblade",
     "region": "Akkala",
-    "quest": "The Skull's Eye",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Skull's Eye"
   },
   {
     "id": "114",
@@ -868,16 +867,14 @@
     "trial": "Ze Kasho Apparatus",
     "main_item": "Silverscale Spear",
     "region": "Akkala",
-    "landmark": "South Akkala Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "South Akkala Stable"
   },
   {
     "id": "115",
     "monk": "Ke'nai Shakah",
     "trial": "A Modest Test of Strength",
     "main_item": "Sapphire",
-    "region": "Akkala",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Akkala"
   },
   {
     "id": "116",
@@ -885,8 +882,7 @@
     "trial": "Ritaag Zumo's Blessing",
     "main_item": "Giant Ancient Core",
     "region": "Akkala",
-    "quest": "Into the Vortex",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Into the Vortex"
   },
   {
     "id": "117",
@@ -894,8 +890,7 @@
     "trial": "A Major Test of Strength",
     "main_item": "Flamespear",
     "region": "Akkala",
-    "quest": "The Spring of Power",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Spring of Power"
   },
   {
     "id": "118",
@@ -904,15 +899,14 @@
     "main_item": "Barbarian Helm",
     "region": "Akkala",
     "quest": "Trail of the Labyrinth",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "missing_images": ["quest"]
   },
   {
     "id": "119",
     "monk": "Dah Hesho",
     "trial": "A Minor Test of Strength",
     "main_item": "Giant Ancient Core",
-    "region": "Akkala",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Akkala"
   },
   {
     "id": "120",
@@ -920,8 +914,7 @@
     "trial": "Katosa Aug Apparatus",
     "main_item": "Great Frostblade",
     "region": "Akkala",
-    "landmark": "East Akkala Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "East Akkala Stable"
   },
   {
     "id": "121",
