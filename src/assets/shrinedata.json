@@ -789,25 +789,22 @@
     "id": "104",
     "monk": "Shora Hah",
     "trial": "Blue Flame",
-    "main_item": "Royal Bow, Giant Ancient Core, Great Flameblade, Forest Dweller’s Sword",
-    "region": "Eldin",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "main_item": "Royal Bow, Giant Ancient Core, Great Flameblade, Forest Dweller’s Sword, Ice Arrows",
+    "region": "Eldin"
   },
   {
     "id": "105",
     "monk": "Daqa Koh",
     "trial": "Stalled Flight",
     "main_item": "Silver Rupee",
-    "region": "Eldin",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Eldin"
   },
   {
     "id": "106",
     "monk": "Qua Raym",
     "trial": "A Balanced Approach",
     "main_item": "Knight's Claymore",
-    "region": "Eldin",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Eldin"
   },
   {
     "id": "107",
@@ -815,8 +812,7 @@
     "trial": "Passing the Flame",
     "main_item": "Ruby",
     "region": "Eldin",
-    "quest": "A Landscape of a Stable",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "A Landscape of a Stable"
   },
   {
     "id": "108",
@@ -824,16 +820,14 @@
     "trial": "Metal Makes a Path",
     "main_item": "Ruby, Knight's Broadsword",
     "region": "Eldin",
-    "landmark": "Foothill Stable",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Foothill Stable"
   },
   {
     "id": "109",
     "monk": "Sah Dahaj",
     "trial": "Power of Fire",
     "main_item": "Knight's Bow",
-    "region": "Eldin",
-    "missing_images": ["external", "internal", "title"]
+    "region": "Eldin"
   },
   {
     "id": "110",
@@ -841,8 +835,7 @@
     "trial": "Gorae Torr's Blessing",
     "main_item": "Great Frostblade",
     "region": "Eldin",
-    "quest": "The Gut Check Challenge",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "The Gut Check Challenge"
   },
   {
     "id": "111",
@@ -850,8 +843,7 @@
     "trial": "Greedy Hill",
     "main_item": "Bomb Arrows, Ruby",
     "region": "Eldin",
-    "quest": "A Brother's Roast",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "A Brother's Roast"
   },
   {
     "id": "112",
@@ -859,8 +851,7 @@
     "trial": "Swinging Flames",
     "main_item": "Ice Arrows, Ruby",
     "region": "Eldin",
-    "landmark": "Goron City",
-    "missing_images": ["external", "internal", "title"]
+    "landmark": "Goron City"
   },
   {
     "id": "113",
