@@ -136,13 +136,13 @@ export default {
       this.answered = index
       this.correct = this.question.answer
 
-      const interval = window.setInterval(()=> {
+      const interval = window.setInterval(() => {
         this.timer += 10
       }, 10)
 
       setTimeout(() => {
         this.timer = 0
-        clearInterval(interval);
+        clearInterval(interval)
         this.newQuestion()
       }, index === this.question.answer ? this.questionTimeoutCorrect : this.questionTimeoutIncorrect)
     },
@@ -423,7 +423,7 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `<strong>${(o.landmark || o.minor_landmark)}</strong> is home to what shrine?`
+        title: `<strong>${(shrine.landmark || shrine.minor_landmark)}</strong> is home to what shrine?`
       }
     },
     guessTheLandmark () {
