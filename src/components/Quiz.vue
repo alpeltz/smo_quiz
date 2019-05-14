@@ -59,7 +59,7 @@ export default {
       question: null,
       quiz: null,
       questionTimeoutCorrect: 2000,
-      questionTimeoutIncorrect: 3000,
+      questionTimeoutIncorrect: 4000,
       quizTypes: {
         easy: [
           'guessTheTrial',
@@ -113,8 +113,9 @@ export default {
       this.preloadImage(`../static/images/${this.question.imageAnswered}.jpg`)
     },
     randomShrine (shrines) {
+      const vm = this
       return _.filter(shrines, o => {
-        return o.id !== this.previousShrine
+        return o.id !== vm.previousShrine
       })[_.random(0, shrines.length - 1)]
     },
     preloadImage (image) {
