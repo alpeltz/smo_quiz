@@ -32,35 +32,40 @@
     "monk": "Bosh Kala",
     "trial": "The Wind Guides You",
     "main_item": "Soldier's Claymore",
-    "region": "Dueling Peaks"
+    "region": "Dueling Peaks",
+    "minor_landmark": "Proxim Bridge"
   },
   {
     "id": "006",
     "monk": "Toto Sah",
     "trial": "Toto Sah Apparatus",
     "main_item": "Shield of the Mind's Eye",
-    "region": "Dueling Peaks"
+    "region": "Dueling Peaks",
+    "minor_landmark": "Hickaly Woods"
   },
   {
     "id": "007",
     "monk": "Shee Vaneer",
     "trial": "Twin Memories",
     "main_item": "Eightfold Longblade",
-    "region": "Dueling Peaks"
+    "region": "Dueling Peaks",
+    "minor_landmark": "Dueling Peaks South Peak"
   },
   {
     "id": "008",
     "monk": "Ree Dahee",
     "trial": "Timing is Critical",
     "main_item": "Climber’s Bandana",
-    "region": "Dueling Peaks"
+    "region": "Dueling Peaks",
+    "minor_landmark": "Dueling Peaks Valley"
   },
   {
     "id": "009",
     "monk": "Shee Venath",
     "trial": "Twin Memories",
     "main_item": "Serpentine Spear",
-    "region": "Dueling Peaks"
+    "region": "Dueling Peaks",
+    "minor_landmark": "Dueling Peaks North Peak"
   },
   {
     "id": "010",
@@ -85,7 +90,8 @@
     "trial": "Drifting",
     "main_item": "Silver Rupee",
     "region": "Dueling Peaks",
-    "quest": "Watch Out for the Flowers"
+    "quest": "Watch Out for the Flowers",
+    "minor_landmark": "Floret Soundbar"
   },
   {
     "id": "013",
@@ -93,14 +99,16 @@
     "trial": "Lakna Rokee's Blessing",
     "main_item": "Edge of Duality",
     "region": "Dueling Peaks",
-    "quest": "The Stolen Heirloom"
+    "quest": "The Stolen Heirloom",
+    "minor_landmark": "Kakariko Village East Woods"
   },
   {
     "id": "014",
     "monk": "Chaas Qeta",
     "trial": "A Major Test of Strength",
     "main_item": "Climbing Gear",
-    "region": "Hateno"
+    "region": "Hateno",
+    "minor_landmark": "Tenoko Island"
   },
   {
     "id": "015",
@@ -124,14 +132,16 @@
     "trial": "Jitan Sa'mi's Blessing",
     "main_item": "Frostspear",
     "region": "Hateno",
-    "quest": "The Spring of Wisdom"
+    "quest": "The Spring of Wisdom",
+    "minor_landmark": "Spring of Wisdom"
   },
   {
     "id": "018",
     "monk": "Dow Na'eh",
     "trial": "Three Boxes",
     "main_item": "Zora Sword",
-    "region": "Hateno"
+    "region": "Hateno",
+    "minor_landmark": "Lanayru Promenade"
   },
   {
     "id": "019",
@@ -147,14 +157,16 @@
     "trial": "Ancient Trifecta",
     "main_item": "Thunderblade",
     "region": "Hateno",
-    "quest": "The Crowned Beast"
+    "quest": "The Crowned Beast",
+    "minor_landmark": "Rabia Plain"
   },
   {
     "id": "021",
     "monk": "Daka Tuss",
     "trial": "Sunken Scoop",
     "main_item": "Silver Longsword",
-    "region": "Lanayru"
+    "region": "Lanayru",
+    "minor_landmark": "Lanayru Promenade"
   },
   {
     "id": "022",
@@ -169,7 +181,8 @@
     "monk": "Soh Kofi",
     "trial": "A Minor Test of Strength",
     "main_item": "Knight's Bow",
-    "region": "Lanayru"
+    "region": "Lanayru",
+    "minor_landmark": "Inogo Bridge"
   },
   {
     "id": "024",
@@ -191,7 +204,8 @@
     "trial": "Shai Yota's Blessing",
     "main_item": "Great Flameblade",
     "region": "Lanayru",
-    "quest": "Master of the Wind"
+    "quest": "Master of the Wind",
+    "minor_landmark": "Horon Lagoon"
   },
   {
     "id": "027",
@@ -199,7 +213,8 @@
     "trial": "Dagah Keek's Blessing",
     "main_item": "Silver Rupee",
     "region": "Lanayru",
-    "quest": "The Ceremonial Song"
+    "quest": "The Ceremonial Song",
+    "minor_landmark": "Veiled Falls"
   },
   {
     "id": "028",
@@ -214,7 +229,8 @@
     "monk": "Kah Mael",
     "trial": "Drop and Rise",
     "main_item": "Diamond",
-    "region": "Lanayru"
+    "region": "Lanayru",
+    "minor_landmark": "Tingel Island"
   },
   {
     "id": "030",
@@ -238,7 +254,8 @@
     "trial": "Kuhn Sidajj's Blessing",
     "main_item": "Giant Ancient Core",
     "region": "Woodland",
-    "quest": "Trial of Second Sight"
+    "quest": "Trial of Second Sight",
+    "minor_landmark": "Lake Saria"
   },
   {
     "id": "033",
@@ -262,7 +279,8 @@
     "trial": "Maag Halan's Blessing",
     "main_item": "Giant Ancient Core",
     "region": "Woodland",
-    "quest": "The Test of Wood"
+    "quest": "The Test of Wood",
+    "minor_landmark": "Mido Swamp"
   },
   {
     "id": "036",
@@ -270,7 +288,8 @@
     "trial": "Ketoh Wawai's Blessing",
     "main_item": "Ancient Core",
     "region": "Woodland",
-    "quest": "Shrouded Shrine"
+    "quest": "Shrouded Shrine",
+    "minor_landmark": "Thyphlo Ruins"
   },
   {
     "id": "037",
@@ -285,7 +304,8 @@
     "monk": "Dah Kaso",
     "trial": "A Minor Test of Strength",
     "main_item": "Ancient Core",
-    "region": "Central"
+    "region": "Central",
+    "minor_landmark": "Digdogg Suspension Bridge"
   },
   {
     "id": "039",
@@ -308,7 +328,8 @@
     "monk": "Kaam Ya'tak",
     "trial": "Trial of Power",
     "main_item": "Edge of Duality, Knight's Broadsword, Ancient Core, Silver Rupee, Diamond",
-    "region": "Central"
+    "region": "Central",
+    "minor_landmark": "Mount Daphnes"
   },
   {
     "id": "042",
@@ -316,7 +337,8 @@
     "trial": "A Minor Test of Strength",
     "main_item": "Royal Halberd",
     "region": "Central",
-    "missing_images": ["internal"]
+    "missing_images": ["internal"],
+    "minor_landmark": "Quarry Ruins"
   },
   {
     "id": "043",
@@ -338,7 +360,8 @@
     "monk": "Namika Ozz",
     "trial": "A Modest Test of Strength",
     "main_item": "Frostspear",
-    "region": "Central"
+    "region": "Central",
+    "minor_landmark": "Crenel Hills"
   },
   {
     "id": "046",
@@ -353,7 +376,8 @@
     "trial": "A Modest Test of Strength",
     "main_item": "Royal Broadsword",
     "region": "Lake",
-    "quest": "Guardian Slideshow"
+    "quest": "Guardian Slideshow",
+    "minor_landmark": "Puffer Beach"
   },
   {
     "id": "048",
@@ -368,14 +392,16 @@
     "monk": "Pumaag Nitae",
     "trial": "A Minor Test of Strength",
     "main_item": "Boomerang",
-    "region": "Lake"
+    "region": "Lake",
+    "minor_landmark": "Finra Woods"
   },
   {
     "id": "050",
     "monk": "Ya Naga",
     "trial": "Shatter the Heavens",
     "main_item": "Eightfold Blade",
-    "region": "Lake"
+    "region": "Lake",
+    "minor_landmark": "Hylia Island"
   },
   {
     "id": "051",
@@ -383,7 +409,8 @@
     "trial": "Shae Katha's Blessing",
     "main_item": "Thunderspear",
     "region": "Lake",
-    "quest": "The Serpent's Jaws"
+    "quest": "The Serpent's Jaws",
+    "minor_landmark": "Spring of Courage"
   },
   {
     "id": "052",
@@ -399,14 +426,16 @@
     "trial": "Qukah Nata's Blessing",
     "main_item": "Rubber Tights",
     "region": "Faron",
-    "quest": "A Song of Storms"
+    "quest": "A Song of Storms",
+    "minor_landmark": "Calora Lake"
   },
   {
     "id": "054",
     "monk": "Shoda Sah",
     "trial": "Impeccable Timing",
     "main_item": "Ice Arrows",
-    "region": "Faron"
+    "region": "Faron",
+    "minor_landmark": "Floria Falls"
   },
   {
     "id": "055",
@@ -414,7 +443,8 @@
     "trial": "Tawa Jinn's Blessing",
     "main_item": "Great Thunderblade",
     "region": "Faron",
-    "quest": "The Three Giant Brothers"
+    "quest": "The Three Giant Brothers",
+    "minor_landmark": "Taran Pass"
   },
   {
     "id": "056",
@@ -430,14 +460,16 @@
     "trial": "Quick Thinking",
     "main_item": "Knight's Claymore",
     "region": "Faron",
-    "quest": "A Fragmented Monument"
+    "quest": "A Fragmented Monument",
+    "minor_landmark": "Palmorae Ruins"
   },
   {
     "id": "058",
     "monk": "Muwo Jeem",
     "trial": "A Modest Test of Strength",
     "main_item": "Knight's Bow",
-    "region": "Faron"
+    "region": "Faron",
+    "minor_landmark": "Cape Cales"
   },
   {
     "id": "059",
@@ -445,7 +477,8 @@
     "trial": "Korgu Chideh's Blessing",
     "main_item": "Gold Rupee",
     "region": "Faron",
-    "quest": "Stranded on Eventide"
+    "quest": "Stranded on Eventide",
+    "minor_landmark": "Eventide Island"
   },
   {
     "id": "060",
@@ -453,7 +486,8 @@
     "trial": "A Modest Test of Strength",
     "main_item": "Frostblade",
     "region": "Ridgeland",
-    "quest": "Under a Red Moon"
+    "quest": "Under a Red Moon",
+    "minor_landmark": "Washa's Bluffs"
   },
   {
     "id": "061",
@@ -469,21 +503,24 @@
     "trial": "Moving in Parallel",
     "main_item": "Great Thunderblade",
     "region": "Ridgeland",
-    "quest": "The Two Rings"
+    "quest": "The Two Rings",
+    "minor_landmark": "Jeddo Bridge"
   },
   {
     "id": "063",
     "monk": "Mogg Latan",
     "trial": "Synced Swing",
     "main_item": "Forest Dweller's Spear, Forest Dweller's Bow, Gold Rupee",
-    "region": "Ridgeland"
+    "region": "Ridgeland",
+    "minor_landmark": "Satori Mountain"
   },
   {
     "id": "064",
     "monk": "Zalta Wa",
     "trial": "Two Orbs to Guide You",
     "main_item": "Knight's Bow",
-    "region": "Ridgeland"
+    "region": "Ridgeland",
+    "minor_landmark": "Breach of Demise"
   },
   {
     "id": "065",
@@ -498,7 +535,8 @@
     "trial": "Buried Secrets",
     "main_item": "Rubber Armor",
     "region": "Ridgeland",
-    "quest": "Trial of Thunder"
+    "quest": "Trial of Thunder",
+    "minor_landmark": "Thundra Plateau"
   },
   {
     "id": "067",
@@ -514,7 +552,8 @@
     "trial": "The Winding Route",
     "main_item": "Flameblade",
     "region": "Tabantha",
-    "quest": "Recital at Warbler's Nest"
+    "quest": "Recital at Warbler's Nest",
+    "minor_landmark": "Warbler's Nest"
   },
   {
     "id": "069",
@@ -538,7 +577,8 @@
     "trial": "A Major Test of Strength",
     "main_item": "Royal Halberd",
     "region": "Tabantha",
-    "missing_images": ["internal"]
+    "missing_images": ["internal"],
+    "minor_landmark": "Ancient Columns"
   },
   {
     "id": "072",
@@ -552,14 +592,16 @@
     "monk": "Hia Miu",
     "trial": "A Major Test of Strength",
     "main_item": "Sapphire",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "Icefall Foothills"
   },
   {
     "id": "074",
     "monk": "To Quomo",
     "trial": "To Quomo's Blessing",
     "main_item": "Royal Claymore",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "Hebra Great Skeleton"
   },
   {
     "id": "075",
@@ -567,28 +609,32 @@
     "trial": "A Major Test of Strength",
     "main_item": "Diamond",
     "region": "Hebra",
-    "quest": "The Bird in the Mountains"
+    "quest": "The Bird in the Mountains",
+    "minor_landmark": "Biron Snowshelf"
   },
   {
     "id": "076",
     "monk": "Shada Naw",
     "trial": "Red Giveaway",
     "main_item": "Great Frostblade",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "Selmie's Spot"
   },
   {
     "id": "077",
     "monk": "Rok Uwog",
     "trial": "Power of Reach",
     "main_item": "Drillshaft",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "Pikida Stonegrove"
   },
   {
     "id": "078",
     "monk": "Sha Gehma",
     "trial": "Shift and Lock",
     "main_item": "Royal Broadsword",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "N. Tabantha Snowfield"
   },
   {
     "id": "079",
@@ -596,14 +642,16 @@
     "trial": "Qaza Tokki's Blessing",
     "main_item": "Barbarian Leg Wraps",
     "region": "Hebra",
-    "quest": "Trial on the Cliff"
+    "quest": "Trial on the Cliff",
+    "minor_landmark": "North Lomei Labyrinth"
   },
   {
     "id": "080",
     "monk": "Goma Asaagh",
     "trial": "A Major Test of Strength",
     "main_item": "Royal Claymore",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "Hebra Peak"
   },
   {
     "id": "081",
@@ -631,7 +679,8 @@
     "monk": "Gee Ha'rah",
     "trial": "Tandem",
     "main_item": "Diamond",
-    "region": "Hebra"
+    "region": "Hebra",
+    "minor_landmark": "Kopeeki Drifts"
   },
   {
     "id": "085",
@@ -646,7 +695,8 @@
     "monk": "Hawa Koth",
     "trial": "The Current Solution",
     "main_item": "Ancient Core, Sapphire",
-    "region": "Wasteland"
+    "region": "Wasteland",
+    "minor_landmark": "Gerudo Great Skeleton"
   },
   {
     "id": "087",
@@ -661,7 +711,8 @@
     "monk": "Tho Kayu",
     "trial": "Tho Kayu's Blessing",
     "main_item": "Golden Bow",
-    "region": "Wasteland"
+    "region": "Wasteland",
+    "minor_landmark": "Toruma Dunes"
   },
   {
     "id": "089",
@@ -669,7 +720,8 @@
     "trial": "Raqa Zunzo's Blessing",
     "main_item": "Radiant Shield",
     "region": "Wasteland",
-    "quest": "The Undefeated Champ"
+    "quest": "The Undefeated Champ",
+    "minor_landmark": "Sand-Seal Rally"
   },
   {
     "id": "090",
@@ -685,7 +737,8 @@
     "trial": "Dila Maag's Blessing",
     "main_item": "Barbarian Armor",
     "region": "Wasteland",
-    "quest": "The Desert Labyrinth"
+    "quest": "The Desert Labyrinth",
+    "minor_landmark": "South Lomei Labyrinth"
   },
   {
     "id": "092",
@@ -693,7 +746,8 @@
     "trial": "Korsh O'hu's Blessing",
     "main_item": "Flamespear",
     "region": "Wasteland",
-    "quest": "The Seven Heroines"
+    "quest": "The Seven Heroines",
+    "minor_landmark": "East Gerudo Ruins"
   },
   {
     "id": "093",
@@ -709,7 +763,8 @@
     "trial": "Electric Path",
     "main_item": "Moonlight Scimitar, Radiant Shield, Ancient Core",
     "region": "Wasteland",
-    "quest": "The Eye of the Sandstorm"
+    "quest": "The Eye of the Sandstorm",
+    "minor_landmark": "Great Cliffs"
   },
   {
     "id": "095",
@@ -717,7 +772,8 @@
     "trial": "Suma Sahma's Blessing",
     "main_item": "Moonlight Scimitar",
     "region": "Wasteland",
-    "quest": "Secret of the Snowy Peaks"
+    "quest": "Secret of the Snowy Peaks",
+    "minor_landmark": "Mount Granajh"
   },
   {
     "id": "096",
@@ -740,16 +796,14 @@
     "trial": "Keeha Yoog's Blessing",
     "main_item": "Diamond",
     "region": "Gerudo",
-    "quest": "Cliffside Etchings",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "Cliffside Etchings"
   },
   {
     "id": "099",
     "monk": "Kuh Takkar",
     "trial": "Melting Ice Hazard",
     "main_item": "Frostblade",
-    "region": "Gerudo",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "region": "Gerudo"
   },
   {
     "id": "100",
@@ -757,7 +811,7 @@
     "trial": "A Major Test of Strength",
     "main_item": "Silver Rupee",
     "region": "Gerudo",
-    "missing_images": ["external", "internal", "title"]
+    "minor_landmark": "Risoka Snowfield"
   },
   {
     "id": "101",
@@ -766,7 +820,7 @@
     "main_item": "Frostblade",
     "region": "Gerudo",
     "quest": "The Sign of the Shadow",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "minor_landmark": "Wasteland Tower"
   },
   {
     "id": "102",
@@ -774,37 +828,38 @@
     "trial": "Joloo Nah Apparatus",
     "main_item": "Golden Claymore, Gerudo Spear",
     "region": "Gerudo",
-    "quest": "A Test of Will",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "quest": "A Test of Will"
   },
   {
     "id": "103",
     "monk": "Sho Dantu",
     "trial": "Two Bombs",
     "main_item": "Silver Rupee",
-    "region": "Gerudo",
-    "missing_images": ["external", "internal", "quest", "title"]
+    "region": "Gerudo"
   },
   {
     "id": "104",
     "monk": "Shora Hah",
     "trial": "Blue Flame",
     "main_item": "Royal Bow, Giant Ancient Core, Great Flameblade, Forest Dweller’s Sword, Ice Arrows",
-    "region": "Eldin"
+    "region": "Eldin",
+    "minor_landmark": "Isle of Rabac"
   },
   {
     "id": "105",
     "monk": "Daqa Koh",
     "trial": "Stalled Flight",
     "main_item": "Silver Rupee",
-    "region": "Eldin"
+    "region": "Eldin",
+    "minor_landmark": "Bridge of Eldin"
   },
   {
     "id": "106",
     "monk": "Qua Raym",
     "trial": "A Balanced Approach",
     "main_item": "Knight's Claymore",
-    "region": "Eldin"
+    "region": "Eldin",
+    "minor_landmark": "Goronbi Lake"
   },
   {
     "id": "107",
@@ -827,7 +882,8 @@
     "monk": "Sah Dahaj",
     "trial": "Power of Fire",
     "main_item": "Knight's Bow",
-    "region": "Eldin"
+    "region": "Eldin",
+    "minor_landmark": "Cephla Lake"
   },
   {
     "id": "110",
@@ -835,7 +891,8 @@
     "trial": "Gorae Torr's Blessing",
     "main_item": "Great Frostblade",
     "region": "Eldin",
-    "quest": "The Gut Check Challenge"
+    "quest": "The Gut Check Challenge",
+    "minor_landmark": "Gut Check Rock"
   },
   {
     "id": "111",
@@ -843,7 +900,8 @@
     "trial": "Greedy Hill",
     "main_item": "Bomb Arrows, Ruby",
     "region": "Eldin",
-    "quest": "A Brother's Roast"
+    "quest": "A Brother's Roast",
+    "minor_landmark": "Gorka Tunnel"
   },
   {
     "id": "112",
@@ -859,7 +917,8 @@
     "trial": "Zuna Kai's Blessing",
     "main_item": "Flameblade",
     "region": "Akkala",
-    "quest": "The Skull's Eye"
+    "quest": "The Skull's Eye",
+    "minor_landmark": "Skull Lake"
   },
   {
     "id": "114",
@@ -874,7 +933,8 @@
     "monk": "Ke'nai Shakah",
     "trial": "A Modest Test of Strength",
     "main_item": "Sapphire",
-    "region": "Akkala"
+    "region": "Akkala",
+    "minor_landmark": "Ulria Grotto"
   },
   {
     "id": "116",
@@ -882,7 +942,8 @@
     "trial": "Ritaag Zumo's Blessing",
     "main_item": "Giant Ancient Core",
     "region": "Akkala",
-    "quest": "Into the Vortex"
+    "quest": "Into the Vortex",
+    "minor_landmark": "Rist Peninsula"
   },
   {
     "id": "117",
@@ -890,7 +951,8 @@
     "trial": "A Major Test of Strength",
     "main_item": "Flamespear",
     "region": "Akkala",
-    "quest": "The Spring of Power"
+    "quest": "The Spring of Power",
+    "minor_landmark": "Spring of Power"
   },
   {
     "id": "118",
@@ -899,7 +961,8 @@
     "main_item": "Barbarian Helm",
     "region": "Akkala",
     "quest": "Trail of the Labyrinth",
-    "missing_images": ["quest"]
+    "missing_images": ["quest"],
+    "minor_landmark": "Lomei Labyrinth Island"
   },
   {
     "id": "119",

@@ -2,91 +2,145 @@
   <div id="app">
     <h1>Learn The Shrines</h1>
 
-    <div v-if="answered > 0" class="score" :class="{perfect: score === answered}">
-      <strong>Correct Answers:</strong>
-      <span>
-        {{ score }} / {{ answered }} ({{ getPercent(score, answered) }}%)
-      </span>
+    <div class="options">
+      <!--<div class="dropdown">
+        <dl>
+          <dt>Max Choices</dt>
+          <dd>{{ options.chooseFrom }}</dd>
+        </dl>
 
-      <a href="#show-more" @click="toggleMore" v-if="score > 0">{{ showMore ? 'Less Info' : 'More Info' }}</a>
+        <div class="dropdown-content">
+          <div class="option" v-for="num in 7" :key="num" :class="{active: num + 1 === options.chooseFrom}" @click="changeOption('chooseFrom', num + 1)">
+            {{ num + 1 }}
+          </div>
+        </div>
+      </div>-->
+
+      <div class="dropdown">
+        <dl>
+          <dt>Difficulty</dt>
+          <dd class="small">{{ options.difficulty | capitalize }}</dd>
+        </dl>
+
+        <div class="dropdown-content">
+          <div class="option" v-for="difficulty in difficulties" :key="difficulty" :class="{active: difficulty === options.difficulty}" @click="changeOption('difficulty', difficulty)">
+            {{ difficulty | capitalize }}
+          </div>
+        </div>
+      </div>
+
+      <!--<dl class="toggle" @click="toggleOption('includeDLC')">
+        <dt>DLC</dt>
+        <dd>{{ options.includeDLC ? 'ON' : 'OFF' }}</dd>
+      </dl>-->
+
+      <dl class="toggle" @click="toggleOption('soundOn', false)">
+        <dt>Sounds</dt>
+        <dd>{{ options.soundOn ? 'ON' : 'OFF' }}</dd>
+      </dl>
     </div>
 
-    <div v-if="showMore" class="score-table">
-      <ul>
-        <li v-for="(typeScore, type) in scoreByType" :key="type">
-          <dl>
-            <dt>{{ quiz[type] }}</dt>
-            <dd><span class="bar" :style="{width: `${getPercent(typeScore, max(scoreByType))}%`}">&nbsp;</span><span class="percent">{{ getPercent(typeScore, score) }}%</span></dd>
-          </dl>
-        </li>
-      </ul>
-      <button @click="resetScore">Reset</button>
-    </div>
+    <score-card v-if="total.out_of > 0" :score="total" @reset="resetScore"></score-card>
 
-    <Quiz @answer="tallyScore" @reset="resetScore" />
+    <Quiz @answer="tallyScore" @reset="resetScore" :options="options" ref="quiz" />
+
+    <footer>
+      <code>v0.9.0</code>
+      Created by BoyontheCob
+      <br />
+      <br />
+
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_donations" />
+        <input type="hidden" name="business" value="WTZSPZL7HFLML" />
+        <input type="hidden" name="currency_code" value="CAD" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+        <img alt="" border="0" src="https://www.paypal.com/en_CA/i/scr/pixel.gif" width="1" height="1" />
+      </form>
+
+      <small>Pls. Help keep this free of ads</small>
+
+    </footer>
 
   </div>
 </template>
 
 <script>
 import Quiz from './components/Quiz'
-import _ from 'lodash'
+import ScoreCard from './components/ScoreCard'
 
 export default {
   name: 'App',
   components: {
-    Quiz
+    Quiz,
+    ScoreCard
   },
   data () {
     return {
-      alert: null,
-      correct: null,
-      showMore: false,
-      answered: 0,
-      score: 0,
-      scoreByType: {},
-      quiz: {
-        guessTheMonk: 'Guess Monk by Trial',
-        guessTheTrial: 'Guess Trial by Monk',
-        guessTheShrine: 'Guess Shrine by Region',
-        guessTheShrineFromQuest: 'Guess Shrine by Quest',
-        guessTheShrineFromLandmark: 'Guess Shrine by Landmark',
-        guessTheLandmark: 'Guess Landmark',
-        guessTheQuest: 'Guess Quest',
-        guessTheItem: 'Guess Item'
-      }
+      total: {
+        score: 0,
+        out_of: 0,
+        by_type: {}
+      },
+      options: {
+        soundOn: true,
+        includeDLC: false,
+        chooseFrom: 4,
+        difficulty: 'normal'
+      },
+      difficulties: ['easy', 'normal', 'hard']
     }
   },
   methods: {
     tallyScore (correct, type) {
-      this.answered++
-      this.correct = false
-      if (correct) {
-        this.score++
-        if (this.scoreByType[type]) {
-          this.scoreByType[type]++
-        } else {
-          this.scoreByType[type] = 1
+      this.total.out_of++
+      if (this.total.by_type[type]) {
+        this.total.by_type[type].out_of++
+      } else {
+        this.total.by_type[type] = {
+          score: 0,
+          out_of: 1
         }
-        this.correct = true
+      }
+
+      if (correct) {
+        this.total.score++
+        this.total.by_type[type].score++
       }
     },
     resetScore () {
-      if (this.answered > 0 && window.confirm('This will permanently clear your score.')) {
-        this.showMore = false
-        this.answered = 0
-        this.score = 0
-        this.scoreByType = {}
+      if (this.total.out_of > 0) {
+        if (window.confirm('This will permanently clear your score.')) {
+          this.total = {
+            score: 0,
+            out_of: 0,
+            by_type: {}
+          }
+          return true
+        } else {
+          return false
+        }
+      } else {
+        this.$refs.quiz.newQuestion()
+        return true
       }
     },
-    toggleMore () {
-      this.showMore = !this.showMore
+    toggleOption (option, newQ = true) {
+      this.options[option] = !this.options[option]
+      if (newQ) {
+        this.$refs.quiz.newQuestion()
+      }
     },
-    getPercent (score, from) {
-      return Math.round((score / from) * 100) || 0
-    },
-    max (obj) {
-      return _.max(Object.values(obj))
+    changeOption (option, value) {
+      if (this.options[option] !== value && this.resetScore()) {
+        this.options[option] = value
+        this.$refs.quiz.newQuestion()
+      }
+    }
+  },
+  filters: {
+    capitalize (value) {
+      return value.charAt(0).toUpperCase() + value.slice(1)
     }
   }
 }
@@ -115,10 +169,22 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  padding: 50px 10px;
+  padding: 10px;
   width: 100%;
   text-align: center;
   color: #fff;
+}
+
+@media (max-width: 1500px) {
+  #app {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  #app {
+    padding-top: 60px;
+  }
 }
 
 .score-table {
@@ -188,6 +254,122 @@ a {
 
 .score.perfect a {
   font-weight: normal;
+  color: #fff;
+}
+
+footer {
+  margin-top: 50px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, .5);
+}
+
+footer code {
+  display: block;
+}
+
+.options {
+  display: flex;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  .options {
+    font-size: 12px;
+  }
+}
+
+.options dl {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 0;
+  padding: 5px 0;
+  width: 80px;
+  height: 80px;
+  border: solid 1px #fff;
+  background: #060903;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .options dl {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.options dl + dl,
+.options .dropdown + dl,
+.options dl + .dropdown > dl,
+.options .dropdown + .dropdown > dl {
+  border-left: 0;
+}
+
+.options dt {
+  padding: 0 5px;
+  margin: 0;
+  font-size: 62.5%;
+  text-transform: uppercase;
+}
+
+.options dd {
+  margin: 0;
+  font-size: 175%;
+}
+
+.options dd.small {
+  margin: 0;
+  font-size: 100%;
+}
+
+.options dl.toggle,
+.options .dropdown dl {
+  cursor: pointer;
+}
+
+.options dl.toggle:hover,
+.options .dropdown dl:hover {
+  background: #fff;
+  color: #060903;
+}
+
+.options .dropdown {
+  position: relative;
+}
+
+.options .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.options .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  padding: 2px 8px;
+  border: solid 1px #fff;
+  border-top: 0;
+  background: #060903;
+  text-align: left;
+}
+
+.options .dropdown .option {
+  cursor: pointer;
+  color: rgba(255,255,255, 0.5);
+}
+
+.options .dropdown .option {
+  cursor: pointer;
+}
+
+.options .dropdown .option:hover,
+.options .dropdown .option.active {
   color: #fff;
 }
 </style>

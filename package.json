@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
+    "v-tooltip": "^3.0.0-alpha.7",
     "vue": "^2.5.2"
   },
   "devDependencies": {
