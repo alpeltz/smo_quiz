@@ -7,7 +7,7 @@
     <Quiz @answer="tallyScore" @reset="resetScore" :options="options" ref="quiz" />
 
     <footer>
-      <code>v0.9.1</code>
+      <code>v0.9.2</code>
       Created by BoyontheCob
       <br />
       <br />
