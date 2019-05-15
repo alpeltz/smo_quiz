@@ -3,7 +3,7 @@
     <h2 v-html="question.title" v-if="answered === null"></h2>
     <h2 :class="{'alert-correct': answered === correct, 'alert-incorrect': answered !== correct}" v-else v-html="(answered === correct) ? 'Yep! It\'s <strong>'+question.choices[correct]+'</strong>' : 'Sorry, the answer was <strong>'+question.choices[correct]+'</strong>.'"></h2>
 
-    <progress :value="timer" :max="(answered !== correct) ? questionTimeoutIncorrect : questionTimeoutCorrect"></progress>
+    <progress :value="timer" :max="((answered !== correct) ? questionTimeoutIncorrect : questionTimeoutCorrect) - 100"></progress>
 
     <img :src="(answered === null) ? `../static/images/${question.image}.jpg` : `../static/images/${question.imageAnswered}.jpg`" class="image" :class="{'image-correct': answered === correct && answered !== null, 'image-incorrect': answered !== correct}"/><br />
 
@@ -126,6 +126,9 @@ export default {
       if (index > this.options.chooseFrom - 1 || this.answered != null) {
         return
       }
+
+      window.scrollTo(0, 0)
+
       if (this.options.soundOn) {
         if (index === this.question.answer) {
           this.correctSound.play()
@@ -595,11 +598,15 @@ a {
 @media (max-width: 600px) {
   .choice {
     width: 100%;
+    padding: 0;
   }
 
-  .choice button {
+  .choice button,
+  .choice button:disabled {
+    margin-bottom: 2px;
     padding: .5em 1em;
-    min-height: 3.5em !important;
+    min-height: 3.5em;
+    font-size: 100%;
   }
 }
 
@@ -654,7 +661,7 @@ progress[value] {
 }
 
 progress[value]::-webkit-progress-bar {
-  background-color: #060903;
+  background-color: transparent;
 }
 
 progress[value]::-webkit-progress-value {

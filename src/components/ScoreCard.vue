@@ -6,7 +6,14 @@
           Score
         </dt>
         <dd>
-          <span :class="grade( score ).class" v-tooltip="{ placement: 'left', content: grade( score ).tooltip, delay: { hide: 0, show: 0 } }">{{ grade( score ).letter }}</span>
+          <v-popover placement="right" trigger="hover" offset="-10">
+            <span :class="grade( score ).class">
+              {{ grade( score ).letter }}
+            </span>
+            <template slot="popover">
+              {{ grade( score ).tooltip }}
+            </template>
+          </v-popover>
         </dd>
       </dl>
       <dl v-if="score.out_of >= 1">
@@ -14,7 +21,12 @@
           Answers
         </dt>
         <dd>
-          {{ score.out_of }}
+          <v-popover placement="left-end" trigger="hover" offset="10" :disabled="score.out_of >= 10">
+            {{ score.out_of }}
+            <template slot="popover">
+              Answer at least 10 questions to receive a grade
+            </template>
+          </v-popover>
         </dd>
       </dl>
       <dl @click="resetScore" v-if="score.out_of >= 1" class="toggle">
@@ -31,7 +43,14 @@
           {{ title[name] }}
         </dt>
         <dd>
-          <span :class="grade( type_score, 5, 25 ).class" v-tooltip="{ placement: 'left', content: grade( type_score, 5, 25 ).tooltip, delay: { hide: 0, show: 0 } }">{{ grade( type_score, 5, 25 ).letter }}</span>
+          <v-popover placement="right" trigger="hover" offset="-10">
+            <span :class="grade( type_score, 5, 25 ).class">
+              {{ grade( type_score, 5, 25 ).letter }}
+            </span>
+            <template slot="popover">
+              {{ grade( type_score, 5, 25 ).tooltip }}
+            </template>
+          </v-popover>
         </dd>
       </dl>
     </div>
@@ -42,7 +61,18 @@
 
 export default {
   name: 'ScoreCard',
-  props: ['score'],
+  props: {
+    score: {
+      type: Object,
+      default: () => {
+        return {
+          score: 0,
+          out_of: 0,
+          by_type: {}
+        }
+      }
+    }
+  },
   data () {
     return {
       title: {
@@ -111,40 +141,18 @@ export default {
     resetScore () {
       this.showMore = false
       this.$emit('reset')
+    },
+    test (e) {
+      console.log(e)
     }
   }
 }
 </script>
 <style>
-  .score-card {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    font-size: 16px;
-    align-items: flex-end;
-  }
-
   @media (max-width: 600px) {
     .score-card {
       font-size: 12px;
     }
-  }
-
-  .score-card .total dl {
-    display: flex;
-    flex-direction: column;
-    float: left;
-    margin: 0;
-    padding: 5px 0;
-    width: 80px;
-    height: 80px;
-    border: solid 1px #fff;
-    background: #060903;
-    text-align: center;
-    justify-content: center;
   }
 
   @media (max-width: 600px) {
@@ -161,10 +169,6 @@ export default {
   .score-card .total dl.toggle:hover {
     background: #fff;
     color: #060903;
-  }
-
-  .score-card .total dl + dl {
-    border-left: 0;
   }
 
   .score-card .total dt {
@@ -184,6 +188,10 @@ export default {
     flex-direction: column;
     margin-top: 10px;
     background: #060903;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    font-size: 16px;
   }
 
   .score-card .by-type dl {
@@ -225,6 +233,11 @@ export default {
   }
 
   .score-card .grade {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .v-popover {
     display: inline-block;
     width: 100%;
     cursor: help;
@@ -309,23 +322,14 @@ export default {
     color: #999;
   }
 
-  .v-popper--theme-tooltip {
-    display: none;
-  }
-
-  .v-popper__popper--open {
-    display: block;
-  }
-
-  .v-popper--theme-tooltip .v-popper__inner {
+  .tooltip .tooltip-inner {
     background: #060903;
     color: white;
     padding: 4px;
     max-width: 250px;
     border: solid 1px #fff;
-  }
-
-  .v-popper--theme-tooltip .v-popper__arrow {
-    border-color: #fff;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 </style>
