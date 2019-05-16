@@ -26,7 +26,7 @@
 
     </footer>
 
-    <modal name="info" height="auto" maxHeight="90%" :adaptive="true" :scrollable="true" width="90%" maxWidth="600">
+    <modal name="info" height="auto" :adaptive="true" :scrollable="true" width="90%" :maxWidth="600">
       <div slot="top-right">
         <a href="#" class="close-button" @click.prevent="$modal.hide('info')">
           &times;
@@ -99,16 +99,12 @@ export default {
             by_type: {}
           }
           return true
-        } else {
-          return false
         }
       } else {
         this.$refs.quiz.newQuestion()
-        return true
       }
     },
     openModal () {
-      console.log(this.$modal)
       this.$modal.toggle('info')
     }
   }

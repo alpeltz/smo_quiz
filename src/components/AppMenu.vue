@@ -14,8 +14,8 @@
         </div>
       </div>-->
 
-      <div class="dropdown">
-        <dl>
+      <div class="dropdown" :class="{active: dropdown === 'difficulty'}">
+        <dl @click="dropdown = (dropdown === 'difficulty') ? null : 'difficulty'">
           <dt>Difficulty</dt>
           <dd class="small">{{ options.difficulty | capitalize }}</dd>
         </dl>
@@ -74,6 +74,7 @@ export default {
   },
   data () {
     return {
+      dropdown: null,
       difficulties: ['easy', 'normal', 'hard']
     }
   },
@@ -85,9 +86,12 @@ export default {
       }
     },
     changeOption (option, value) {
-      if (this.options[option] !== value && this.resetScore()) {
+      this.$emit('reset')
+      this.dropdown = null
+
+      if (this.options[option] !== value && this.score.out_of === 0) {
         this.options[option] = value
-        this.$refs.quiz.newQuestion()
+        this.$parent.$refs.quiz.newQuestion()
       }
     }
   },
@@ -111,6 +115,7 @@ export default {
   font-weight: bold;
   font-size: 16px;
   justify-content: space-between;
+  pointer-events: none;
 }
 
 @media (max-width: 600px) {
@@ -146,6 +151,8 @@ export default {
   background: #060903;
   text-align: center;
   justify-content: center;
+  pointer-events: all;
+  user-select: none;
 }
 
 @media (max-width: 600px) {
@@ -208,7 +215,7 @@ export default {
   position: relative;
 }
 
-.options .dropdown:hover .dropdown-content {
+.options .dropdown.active .dropdown-content {
   display: block;
 }
 
@@ -217,21 +224,28 @@ export default {
   position: absolute;
   top: 100%;
   left: 0;
+  margin-top: -1px;
   padding: 2px 8px;
   min-width: 100%;
   border: solid 1px #fff;
   background: #060903;
   text-align: left;
   font-size: 16px;
+  pointer-events: all;
 }
 
 @media (max-width: 600px) {
-  .options .dropdown .dropdown-content .option {
+  .options .dropdown .dropdown-content {
+    margin-top: 0;
+  }
+
+  .options .dropdown .option {
     padding: .5em 0;
   }
 }
 
 .options .dropdown .option {
+  padding: .25em 0;
   cursor: pointer;
   color: rgba(255,255,255, 0.5);
 }
