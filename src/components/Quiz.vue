@@ -623,9 +623,15 @@ a {
 .choice button:disabled {
   cursor: default;
 }
+
 .choice button:hover {
   background-color: rgba(178, 186, 179, 1);
 }
+
+@media (hover: none) {
+  .choice button:hover { background-color: rgba(178, 186, 179, .7); }
+}
+
 .choice button.answered {
   color: #4b2c25;
   border-color: #4b2c25;
