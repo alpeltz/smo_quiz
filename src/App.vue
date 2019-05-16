@@ -2,12 +2,14 @@
   <div id="app">
     <h1>Learn The Shrines</h1>
 
-    <app-menu :options="options" :score="total" @reset="resetScore"></app-menu>
+    <app-menu :options="options" :score="total" @reset="resetScore" @info="openModal"></app-menu>
 
     <Quiz @answer="tallyScore" @reset="resetScore" :options="options" ref="quiz" />
 
     <footer>
-      <code>v0.9.2</code>
+      <p><a href="#" @click.prevent="$modal.toggle('info')">What is this?</a></p>
+
+      <code>v0.9.3</code>
       Created by BoyontheCob
       <br />
       <br />
@@ -23,6 +25,25 @@
       <small>Pls. Help keep this free of ads</small>
 
     </footer>
+
+    <modal name="info" height="auto">
+      <div slot="top-right">
+        <a href="#" class="close-button" @click.prevent="$modal.hide('info')">
+          &times;
+        </a>
+      </div>
+
+      <h2>About</h2>
+
+      <p>Learn the Shrines is a learning resource developed for the <strong>The Legend of Zelda: Breath of the Wild</strong> speedrunning community. The purpose is to help newcomers and fans of the game to learn the names, locations, and associated shrine quests for all 120 shrines of Hyrule using flashcards and multiple choice. It's not essential to learn the names of the shrines in order to speedrun the game, but it helps in conversation with other people in the community.</p>
+
+      <p>I created it because I was constantly having to look up names of shrines when they were mentioned on streams, and in chats. I wanted to practice some web development stuff, and this seemed like a good excercise that could help me learn and help others learn too.</p>
+
+      <p>If you have any ideas for additional features to Learn the Shrines, found some mistakes, or just want to say "hi"; You can DM me (BoyontheCob) in the <a href="https://discord.gg/rF4XeFC">BoTW Speedrunning Discord</a>.</p>
+
+      <p><strong>Spoiler disclaimer:</strong> The information and images in this app contain massive spoilers for the game, possible shrine solutions, and locations of things that are way more fun finding on you own. If you havn't yet completed the game and found all 120 shrines yourself, please don't spoil it for yourself!</p>
+
+    </modal>
 
   </div>
 </template>
@@ -85,6 +106,10 @@ export default {
         this.$refs.quiz.newQuestion()
         return true
       }
+    },
+    openModal () {
+      console.log(this.$modal)
+      this.$modal.toggle('info')
     }
   }
 }
@@ -143,5 +168,35 @@ footer {
 
 footer code {
   display: block;
+}
+
+footer a {
+  color: #fff;
+}
+
+.v--modal-overlay {
+  background: repeat 0 0 / 50% url('./assets/bg.jpg') #060903;
+}
+
+.v--modal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #060903;
+  color: #fff;
+  border: solid 1px #fff;
+  justify-content: center;
+}
+
+.v--modal h2 {
+  margin-bottom: 0;
+}
+
+.close-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  font-size: 20px;
+  font-weight: bold;
 }
 </style>

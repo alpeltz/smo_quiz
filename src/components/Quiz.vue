@@ -559,6 +559,8 @@ h2 {
   max-width: 800px;
 }
 .choices {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto 50px;
