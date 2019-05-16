@@ -107,6 +107,7 @@ export default {
   top: 10px;
   right: 10px;
   left: 10px;
+  z-index: 99;
   font-weight: bold;
   font-size: 16px;
   justify-content: space-between;

@@ -26,7 +26,7 @@
 
     </footer>
 
-    <modal name="info" height="auto" :adaptive="true" width="100%" maxWidth="600">
+    <modal name="info" height="auto" maxHeight="90%" :adaptive="true" :scrollable="true" width="90%" maxWidth="600">
       <div slot="top-right">
         <a href="#" class="close-button" @click.prevent="$modal.hide('info')">
           &times;
@@ -193,9 +193,18 @@ footer a {
 }
 
 .close-button {
+  position: relative;
+  z-index: 1001;
   display: inline-block;
   text-decoration: none;
-  padding: 1em;
+  background: #060903;
+  border-radius: 50%;
+  border: solid 1px #fff;
+  margin: .5em;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
   font-size: 20px;
   font-weight: bold;
 }
