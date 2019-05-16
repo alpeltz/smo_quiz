@@ -26,7 +26,7 @@
 
     </footer>
 
-    <modal name="info" height="auto">
+    <modal name="info" height="auto" :adaptive="true" width="100%" maxWidth="600">
       <div slot="top-right">
         <a href="#" class="close-button" @click.prevent="$modal.hide('info')">
           &times;
