@@ -49,7 +49,6 @@ export default {
   },
   mounted () {
     this.newQuestion()
-    document.title = 'Learn the Shrines'
     document.addEventListener('keypress', this.answerKeypress)
   },
   data () {
