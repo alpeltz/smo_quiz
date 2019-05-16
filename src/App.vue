@@ -181,6 +181,8 @@ footer a {
 #app .v--modal {
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   background: #060903;
   color: #fff;
