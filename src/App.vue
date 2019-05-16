@@ -178,7 +178,7 @@ footer a {
   background: repeat 0 0 / 50% url('./assets/bg.jpg') #060903;
 }
 
-.v--modal {
+#app .v--modal {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -188,7 +188,7 @@ footer a {
   justify-content: center;
 }
 
-.v--modal h2 {
+#app .v--modal h2 {
   margin-bottom: 0;
 }
 
