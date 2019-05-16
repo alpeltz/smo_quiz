@@ -1,7 +1,7 @@
 <template>
   <div class="quiz" v-if="question">
-    <h2 v-html="question.title" v-if="answered === null"></h2>
-    <h2 :class="{'alert-correct': answered === correct, 'alert-incorrect': answered !== correct}" v-else v-html="(answered === correct) ? 'Yep! It\'s <strong>'+question.choices[correct]+'</strong>' : 'Sorry, the answer was <strong>'+question.choices[correct]+'</strong>.'"></h2>
+    <h2 class="question-text" v-if="answered === null"><span v-html="question.title"></span></h2>
+    <h2 class="question-text" :class="{'alert-correct': answered === correct, 'alert-incorrect': answered !== correct}" v-else><span v-html="(answered === correct) ? 'Yep! It\'s <strong>'+question.choices[correct]+'</strong>' : 'Sorry, the answer was <strong>'+question.choices[correct]+'</strong>.'"></span></h2>
 
     <progress :value="timer" :max="((answered !== correct) ? questionTimeoutIncorrect : questionTimeoutCorrect) - 100"></progress>
 
@@ -558,6 +558,14 @@ h2 {
   margin: 0 auto;
   max-width: 800px;
 }
+
+.question-text {
+  display: flex;
+  min-height: 3em;
+  align-items: center;
+  justify-content: center;
+}
+
 .choices {
   position: relative;
   z-index: 1;
@@ -590,8 +598,8 @@ a {
   padding: 1em;
   width: 100%;
   color: #363636;
-  background-color: #d4d4d4;
-  opacity: .8;
+  background-color: rgba(178, 186, 179, .7);
+  border-color: #363636;
   cursor: pointer;
   font-size: 110%;
   min-height: 5em;
@@ -607,7 +615,7 @@ a {
   .choice button:disabled {
     margin-bottom: 2px;
     padding: .5em 1em;
-    min-height: 3.5em;
+    min-height: 3em;
     font-size: 100%;
   }
 }
@@ -616,7 +624,7 @@ a {
   cursor: default;
 }
 .choice button:hover {
-  opacity: 1;
+  background-color: rgba(178, 186, 179, 1);
 }
 .choice button.answered {
   color: #4b2c25;
@@ -640,6 +648,12 @@ a {
   background: rgba(255,255,255,0.5);
 }
 
+@media (max-width: 600px) {
+  .image {
+    margin-bottom: 0;
+  }
+}
+
 .image-correct {
   background-color: #98d098;
 }
@@ -660,6 +674,16 @@ progress[value] {
   width: 100%;
   height: 2px;
   appearance: none;
+}
+
+@media (max-width: 600px) {
+  progress[value] {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    width: 100%;
+  }
 }
 
 progress[value]::-webkit-progress-bar {

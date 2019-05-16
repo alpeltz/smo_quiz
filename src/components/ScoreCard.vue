@@ -322,6 +322,10 @@ export default {
     color: #999;
   }
 
+  .tooltip {
+    z-index: 998;
+  }
+
   .tooltip .tooltip-inner {
     background: #060903;
     color: white;

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Learn The Shrines</h1>
+    <h1 class="logo">Learn The Shrines</h1>
 
     <app-menu :options="options" :score="total" @reset="resetScore" @info="openModal"></app-menu>
 
@@ -138,6 +138,7 @@ body {
   width: 100%;
   text-align: center;
   color: #fff;
+  line-height: 1.5;
 }
 
 @media (max-width: 1500px) {
@@ -147,8 +148,40 @@ body {
 }
 
 @media (max-width: 600px) {
+  body {
+    background-size: cover;
+  }
+
   #app {
     padding-top: 60px;
+  }
+}
+
+.logo {
+  text-indent: 100%;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  font-size: 0;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.logo {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1002;
+  width: 163px;
+  height: 69px;
+  background: no-repeat center center / 163px 69px url('/static/logo-learntheshrines.png');
+}
+
+@media (max-width: 600px) {
+  .logo {
+    width: 82px;
+    height: 35px;
+    background-size: 82px 35px;
   }
 }
 
