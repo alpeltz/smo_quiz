@@ -89,10 +89,12 @@ export default {
       this.$emit('reset')
       this.dropdown = null
 
-      if (this.options[option] !== value && this.score.out_of === 0) {
-        this.options[option] = value
-        this.$parent.$refs.quiz.newQuestion()
-      }
+      setTimeout(() => {
+        if (this.options[option] !== value && this.score.out_of === 0) {
+          this.options[option] = value
+          this.$parent.$refs.quiz.newQuestion()
+        }
+      }, 10)
     }
   },
   filters: {
