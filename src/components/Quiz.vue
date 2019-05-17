@@ -1,6 +1,7 @@
 <template>
   <div class="quiz" v-if="question">
     <h2 class="question-text" v-if="answered === null"><span v-html="question.title"></span></h2>
+
     <h2 class="question-text" :class="{'alert-correct': answered === correct, 'alert-incorrect': answered !== correct}" v-else><span v-html="(answered === correct) ? 'Yep! It\'s <strong>'+question.choices[correct]+'</strong>' : 'Sorry, the answer was <strong>'+question.choices[correct]+'</strong>.'"></span></h2>
 
     <progress :value="timer" :max="((answered !== correct) ? questionTimeoutIncorrect : questionTimeoutCorrect) - 100"></progress>
@@ -94,7 +95,8 @@ export default {
       },
       answered: null,
       correct: null,
-      previousShrine: null,
+      previousShrines: [],
+      historyLimit: 10,
       timer: 0,
       correctSound: new Sound('./static/correct.wav'),
       incorrectSound: new Sound('./static/incorrect.wav')
@@ -108,14 +110,16 @@ export default {
       this.correct = null
       this.quiz = quiz
       this.question = this[quiz]()
+      this.previousShrines.push(this.question.id)
 
       this.preloadImage(`../static/images/${this.question.imageAnswered}.jpg`)
     },
     randomShrine (shrines) {
       const vm = this
-      return _.filter(shrines, o => {
-        return o.id !== vm.previousShrine
-      })[_.random(0, shrines.length - 1)]
+      const filteredShrines = _.filter(shrines, o => {
+        return vm.previousShrines.slice(vm.previousShrines.length - vm.historyLimit).indexOf(o.id) === -1
+      })
+      return filteredShrines[_.random(0, filteredShrines.length - 1)]
     },
     preloadImage (image) {
       const img = document.createElement('img')
@@ -239,7 +243,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const merged = {
         'Central': 'Ridgeland',
@@ -275,7 +278,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-internal`,
         imageAnswered: `${shrine.id}-title`,
-        title: `The trial <strong>${shrine.trial}</strong> is in which shrine?`
+        title: `The trial <strong>${shrine.trial}</strong> is in which shrine?`,
+        id: shrine.id
       }
     },
     guessTheTrial () {
@@ -287,7 +291,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const merged = {
         'Akkala': 'Lanayru',
@@ -321,7 +324,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `The shrine <strong>${shrine.monk}</strong> has which trial for you?`
+        title: `The shrine <strong>${shrine.monk}</strong> has which trial for you?`,
+        id: shrine.id
       }
     },
     guessTheShrine () {
@@ -332,7 +336,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -351,7 +354,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `This shrine is in the <strong>${shrine.region}</strong> region`
+        title: `This shrine is in the <strong>${shrine.region}</strong> region`,
+        id: shrine.id
       }
     },
     guessTheShrineFromQuest () {
@@ -362,7 +366,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -376,7 +379,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-quest`,
         imageAnswered: `${shrine.id}-title`,
-        title: `Completing the <strong>${shrine.quest}</strong> quest reveals which shrine?`
+        title: `Completing the <strong>${shrine.quest}</strong> quest reveals which shrine?`,
+        id: shrine.id
       }
     },
     guessTheShrineFromLandmark () {
@@ -387,7 +391,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -401,7 +404,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `<strong>${shrine.landmark}</strong> is home to what shrine?`
+        title: `<strong>${shrine.landmark}</strong> is home to what shrine?`,
+        id: shrine.id
       }
     },
     guessTheShrineFromLandmarkHard () {
@@ -412,7 +416,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -426,7 +429,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `<strong>${(shrine.landmark || shrine.minor_landmark)}</strong> is home to what shrine?`
+        title: `<strong>${(shrine.landmark || shrine.minor_landmark)}</strong> is home to what shrine?`,
+        id: shrine.id
       }
     },
     guessTheLandmark () {
@@ -437,7 +441,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -451,7 +454,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-title`,
         imageAnswered: `${shrine.id}-external`,
-        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is near what landmark?`
+        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is near what landmark?`,
+        id: shrine.id
       }
     },
     guessTheLandmarkHard () {
@@ -462,7 +466,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -476,7 +479,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-title`,
         imageAnswered: `${shrine.id}-external`,
-        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is near what landmark?`
+        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is near what landmark?`,
+        id: shrine.id
       }
     },
     guessTheQuest () {
@@ -487,7 +491,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -501,7 +504,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-title`,
         imageAnswered: `${shrine.id}-quest`,
-        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is the shrine for which quest?`
+        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> is the shrine for which quest?`,
+        id: shrine.id
       }
     },
     guessTheItem () {
@@ -513,7 +517,6 @@ export default {
 
       if (set.length < 1) this.newQuestion()
       const shrine = this.randomShrine(set)
-      this.previousShrine = shrine.id
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
@@ -533,7 +536,8 @@ export default {
         answer: _.indexOf(choices, shrine),
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> contains which item?`
+        title: `<strong>${shrine.monk}: ${shrine.trial}</strong> contains which item?`,
+        id: shrine.id
       }
     }
   }
