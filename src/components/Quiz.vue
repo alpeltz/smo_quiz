@@ -82,9 +82,9 @@ export default {
         ],
         hard: [
           'guessTheMonk',
+          'guessTheMonk',
+          'guessTheMonk',
           'guessTheTrial',
-          'guessTheShrine',
-          'guessTheShrine',
           'guessTheShrine',
           'guessTheShrineFromQuest',
           'guessTheShrineFromLandmarkHard',
@@ -236,7 +236,7 @@ export default {
     guessTheMonk () {
       const set = _.filter(shrines, o => {
         return o.trial.indexOf(o.monk) === -1 &&
-               (this.options.difficulty !== 'hard' && o.trial.indexOf('Test of Strength') === -1) &&
+               (this.options.difficulty === 'hard' || o.trial.indexOf('Test of Strength') === -1) &&
                this.hasImages(o, ['internal', 'title']) &&
                this.DLC(o)
       })
@@ -261,13 +261,13 @@ export default {
           if (merged[shrine.region]) {
             return (o.region === shrine.region || o.region === merged[shrine.region]) && // same region merged
                 o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
-                (this.options.difficulty !== 'hard' && o.trial.indexOf('Test of Strength') === -1) && // exclude similar trials
+                (this.options.difficulty === 'hard' || o.trial.indexOf('Test of Strength') === -1) && // exclude similar trials
                 this.DLC(o) && // is DLC enabled? if so, mix it in
                 o.id !== shrine.id // no duplicates
           }
           return (o.region === shrine.region) && // same region
                  o.trial.indexOf(o.monk) === -1 && // trial contains monk name (blessings, etc)
-                 (this.options.difficulty !== 'hard' && o.trial.indexOf('Test of Strength') === -1) && // exclude similar trials
+                 (this.options.difficulty === 'hard' || o.trial.indexOf('Test of Strength') === -1) && // exclude similar trials
                  this.DLC(o) && // is DLC enabled? if so, mix it in
                  o.id !== shrine.id // no duplicates
         }
@@ -569,6 +569,12 @@ h2 {
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .question-text {
+    min-height: 3em;
+  }
+}
+
 .choices {
   position: relative;
   z-index: 1;
@@ -601,7 +607,7 @@ a {
   padding: 1em;
   width: 100%;
   color: #363636;
-  background-color: rgba(178, 186, 179, .7);
+  background-color: rgba(178, 186, 179, .8);
   border-color: #363636;
   cursor: pointer;
   font-size: 110%;
