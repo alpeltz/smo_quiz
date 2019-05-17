@@ -17,17 +17,21 @@
       <div class="dropdown" :class="{active: dropdown === 'difficulty'}">
         <dl @click="dropdown = (dropdown === 'difficulty') ? null : 'difficulty'">
           <dt>Difficulty</dt>
-          <dd class="small">{{ options.difficulty | capitalize }}</dd>
+          <dd class="small">{{ options.difficulty | capitalize }}{{ options.includeDLC ? '+' : '' }}</dd>
         </dl>
 
         <div class="dropdown-content">
           <div class="option" v-for="difficulty in difficulties" :key="difficulty" :class="{active: difficulty === options.difficulty}" @click="changeOption('difficulty', difficulty)">
             {{ difficulty | capitalize }}
           </div>
+          <div class="option divider">--</div>
+          <div class="option" :class="{active: options.includeDLC}" @click="toggleOption('includeDLC', true)">
+            DLC&nbsp;{{ options.includeDLC ? '-' : '+' }}
+          </div>
         </div>
       </div>
 
-      <!--<dl class="toggle" @click="toggleOption('includeDLC')">
+      <!--<dl class="toggle">
         <dt>DLC</dt>
         <dd>{{ options.includeDLC ? 'ON' : 'OFF' }}</dd>
       </dl>-->
@@ -82,7 +86,14 @@ export default {
     toggleOption (option, newQ = true) {
       this.options[option] = !this.options[option]
       if (newQ) {
-        this.$refs.quiz.newQuestion()
+        this.$emit('reset')
+
+        setTimeout(() => {
+          if (this.options[option] !== value && this.score.out_of === 0) {
+            this.options[option] = value
+            this.$parent.$refs.quiz.newQuestion()
+          }
+        }, 10)
       }
     },
     changeOption (option, value) {
@@ -254,6 +265,10 @@ export default {
 
 .options .dropdown .option {
   cursor: pointer;
+}
+
+.options .dropdown .option.divider {
+  pointer-events: none;
 }
 
 .options .dropdown .option:hover,

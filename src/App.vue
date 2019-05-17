@@ -9,7 +9,7 @@
     <footer>
       <p><a href="#" @click.prevent="$modal.toggle('info')">What is this?</a></p>
 
-      <code>v1.0.3</code>
+      <code>v1.1.0</code>
       Created by BoyontheCob
       <br />
       <br />

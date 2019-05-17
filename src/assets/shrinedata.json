@@ -985,8 +985,7 @@
     "trial": "Collected Soul",
     "main_item": "Bomb Arrows, Phrenic Bow",
     "region": "Great Plateau",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "122",
@@ -994,8 +993,7 @@
     "trial": "Stop to Start",
     "main_item": "Forest Dweller's Shield",
     "region": "Great Plateau",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "123",
@@ -1003,8 +1001,7 @@
     "trial": "A Major Test of Strength+",
     "main_item": "Bomb Arrows, Giant Ancient Core",
     "region": "Great Plateau",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "124",
@@ -1012,8 +1009,7 @@
     "trial": "Path of Light",
     "main_item": "Gold Rupee",
     "region": "Great Plateau",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "125",
@@ -1021,8 +1017,7 @@
     "trial": "The Melting Point",
     "main_item": "Frostblade",
     "region": "Lanayru",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "126",
@@ -1030,8 +1025,7 @@
     "trial": "Support and Guidance",
     "main_item": "Giant Ancient Core",
     "region": "Lanayru",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "127",
@@ -1039,8 +1033,7 @@
     "trial": "Secret Stairway",
     "main_item": "Royal Shield",
     "region": "Lanayru",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "128",
@@ -1048,8 +1041,7 @@
     "trial": "Moving Targets",
     "main_item": "Diamond",
     "region": "Eldin",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "129",
@@ -1057,8 +1049,7 @@
     "trial": "Blind Spots",
     "main_item": "Great Flameblade",
     "region": "Eldin",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "130",
@@ -1066,8 +1057,7 @@
     "trial": "Block the Blaze",
     "main_item": "Stone Smasher",
     "region": "Eldin",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "131",
@@ -1075,8 +1065,7 @@
     "trial": "Aim for Stillness",
     "main_item": "Bomb Arrows",
     "region": "Tabantha",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "132",
@@ -1084,8 +1073,7 @@
     "trial": "Master the Orb",
     "main_item": "Falcon Bow",
     "region": "Tabantha",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "133",
@@ -1093,8 +1081,7 @@
     "trial": "The Four Winds",
     "main_item": "Shield of the Mind's Eye",
     "region": "Tabantha",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "134",
@@ -1102,8 +1089,7 @@
     "trial": "Big or Small",
     "main_item": "Radiant Shield",
     "region": "Wasteland",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "135",
@@ -1111,8 +1097,7 @@
     "trial": "Dual Purpose",
     "main_item": "Royal Bow",
     "region": "Wasteland",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   },
   {
     "id": "136",
@@ -1120,7 +1105,6 @@
     "trial": "Inside the Box",
     "main_item": "Thunderspear",
     "region": "Wasteland",
-    "dlc": true,
-    "missing_images": ["external", "internal", "title"]
+    "dlc": true
   }
 ]
