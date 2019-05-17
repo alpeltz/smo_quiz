@@ -84,16 +84,19 @@ export default {
   },
   methods: {
     toggleOption (option, newQ = true) {
-      this.options[option] = !this.options[option]
+      this.dropdown = null
+
       if (newQ) {
         this.$emit('reset')
 
         setTimeout(() => {
-          if (this.options[option] !== value && this.score.out_of === 0) {
-            this.options[option] = value
+          if (this.score.out_of === 0) {
+            this.options[option] = !this.options[option]
             this.$parent.$refs.quiz.newQuestion()
           }
         }, 10)
+      } else {
+        this.options[option] = !this.options[option]
       }
     },
     changeOption (option, value) {
