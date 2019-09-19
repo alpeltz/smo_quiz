@@ -69,7 +69,7 @@ export default {
         soundOn: true,
         includeDLC: false,
         chooseFrom: 4,
-        difficulty: 'normal'
+        difficulty: 'any_percent'
       }
     }
   },

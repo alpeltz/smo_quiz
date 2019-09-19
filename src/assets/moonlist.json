@@ -1,0 +1,5950 @@
+[
+  {
+    "id": "001",
+    "name": "Frog-jumping above the Fog",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "002",
+    "name": "Frog-jumping from the Top Deck",
+    "kingdom": "Cap",
+    "post_game": true
+  },
+  {
+    "id": "003",
+    "name": "Cap Kingdom Timer Challenge 1",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "004",
+    "name": "Good Evening, Captain Toad!",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "005",
+    "name": "Shopping in Bonneton",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "006",
+    "name": "Skimming the Poison Tide",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "007",
+    "name": "Slipping through the Poison Tide",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "008",
+    "name": "Push-Block Peril",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "009",
+    "name": "Hidden Among the Push-Blocks",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "010",
+    "name": "Searching the Frog Pond",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "011",
+    "name": "Secrets of the Frog Pond",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "012",
+    "name": "The Forgotten Treasure",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "013",
+    "name": "Taxi Flying Through Bonneton",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "014",
+    "name": "Bonnetter Blockade",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "015",
+    "name": "Cap Kingdom Regular Cup",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "016",
+    "name": "Peach in the Cap Kingdom",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "017",
+    "name": "Found with Cap Kingdom Art",
+    "kingdom": "Moon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "018",
+    "name": "Next to Glasses Bridge",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "019",
+    "name": "Danger Sign",
+    "kingdom": "Cap",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "020",
+    "name": "Under the Big One’s Brim",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "021",
+    "name": "Fly to the Edge of the Fog",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "022",
+    "name": "Spin the Hat, Get a Prize",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "023",
+    "name": "Hidden in a Sunken Hat",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "024",
+    "name": "Fog-Shrouded Platform",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "025",
+    "name": "Bird Traveling in the Fog",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "026",
+    "name": "Caught Hopping Near the Ship!",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "027",
+    "name": "Taking Notes: In the Fog",
+    "kingdom": "Cap",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "028",
+    "name": "Cap Kingdom Timer Challenge 2",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "029",
+    "name": "Cap Kingdom Master Cup",
+    "kingdom": "Cap",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "030",
+    "name": "Roll On and On",
+    "kingdom": "Cap",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "031",
+    "name": "Precision Rolling",
+    "kingdom": "Cap",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "032",
+    "name": "Our First Power Moon",
+    "kingdom": "Cascade",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "033",
+    "name": "Multi Moon Atop the Falls",
+    "kingdom": "Cascade",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "034",
+    "name": "Chomp Through the Rocks",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "035",
+    "name": "Behind the Waterfall",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "036",
+    "name": "On Top of the Rubble",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "037",
+    "name": "Treasure of the Waterfall Basin",
+    "kingdom": "Cascade",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "038",
+    "name": "Above a High Cliff",
+    "kingdom": "Cascade",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "039",
+    "name": "Across the Floating Isles",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "040",
+    "name": "Cascade Kingdom Timer Challenge 1",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "041",
+    "name": "Cascade Kingdom Timer Challenge 2",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "042",
+    "name": "Good Morning, Captain Toad!",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "043",
+    "name": "Dinosaur Nest: Big Cleanup!",
+    "kingdom": "Cascade",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "044",
+    "name": "Dinosaur Nest: Running Wild!",
+    "kingdom": "Cascade",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "045",
+    "name": "Nice Shot with the Chain Chomp!",
+    "kingdom": "Cascade",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "046",
+    "name": "Very Nice Shot with the Chain Chomp!",
+    "kingdom": "Cascade",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "047",
+    "name": "Past the Chasm Lifts",
+    "kingdom": "Cascade",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "048",
+    "name": "Hidden Chasm Passage",
+    "kingdom": "Cascade",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "049",
+    "name": "Secret Path to Fossil Falls!",
+    "kingdom": "Cascade",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "050",
+    "name": "A Tourist in the Cascade Kingdom",
+    "kingdom": "Cascade",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "051",
+    "name": "Rolling Rock by the Falls",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "052",
+    "name": "Peach in the Cascade Kingdom",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "053",
+    "name": "Cascade Kingdom Regular Cup",
+    "kingdom": "Cascade",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "054",
+    "name": "Caveman Cave-Fan",
+    "kingdom": "Cascade",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "055",
+    "name": "Shopping in Fossil Falls",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "056",
+    "name": "Sphynx Traveling to the Waterfall",
+    "kingdom": "Cascade",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "057",
+    "name": "Bottom of the Waterfall Basin",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "058",
+    "name": "Just a Hat, Skip, and a Jump",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "059",
+    "name": "Treasure Under the Cliff",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "060",
+    "name": "Next to the Stone Arch",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "061",
+    "name": "Guarded by a Colossal Fossil",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "062",
+    "name": "Under the Old Electrical Pole",
+    "kingdom": "Cascade",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "063",
+    "name": "Under the Ground",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "064",
+    "name": "Inside the Busted Fossil",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "065",
+    "name": "Caught Hopping at the Waterfall!",
+    "kingdom": "Cascade",
+    "post_game": true
+  },
+  {
+    "id": "066",
+    "name": "Taking Notes: Hurry Upward",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "067",
+    "name": "Across the Mysterious Clouds",
+    "kingdom": "Cascade",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "068",
+    "name": "Cascade Kingdom Master Cup",
+    "kingdom": "Cascade",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "069",
+    "name": "Atop a Wall Among the Clouds",
+    "kingdom": "Cascade",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "070",
+    "name": "Across the Gusty Bridges",
+    "kingdom": "Cascade",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "071",
+    "name": "Flying Far Away from Gusty Bridges",
+    "kingdom": "Cascade",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "072",
+    "name": "Atop the Highest Tower",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "073",
+    "name": "Moon Shards in the Sand",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "074",
+    "name": "Showdown on the Inverted Pyramid",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "075",
+    "name": "The Hole in the Desert",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "076",
+    "name": "Overlooking the Desert Town",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "077",
+    "name": "Alcove in the Ruins",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "078",
+    "name": "On the Leaning Pillar",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "079",
+    "name": "Hidden Room in the Flowing Sands",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "080",
+    "name": "Secret of the Mural",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "081",
+    "name": "Secret of the Inverted Mural",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "082",
+    "name": "On Top of Stone Archway",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "083",
+    "name": "From a Crate In The Ruins",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "084",
+    "name": "On the Lone Pillar",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "085",
+    "name": "On the Statue’s Tail",
+    "kingdom": "Sand",
+    "post_game": false
+  },
+  {
+    "id": "086",
+    "name": "Hang Your Hat on the Fountain",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "087",
+    "name": "Where the Birds Gather",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "088",
+    "name": "Top of a Dune",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "089",
+    "name": "Lost in the Luggage",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "090",
+    "name": "Bullet Bill Breakthrough",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "091",
+    "name": "Inside a Block Is a Hard Place",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "092",
+    "name": "Bird Traveling the Desert",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "093",
+    "name": "Bird Traveling Wastes",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "094",
+    "name": "The Lurker Under the Stone",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "095",
+    "name": "The Treasure of Jaxi Ruins",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "096",
+    "name": "Desert Gardening: Plaza Seed",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "097",
+    "name": "Desert Gardening: Ruins Seed",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "098",
+    "name": "Desert Gardening: Seed on the Cliff",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "099",
+    "name": "Sand Kingdom Timer Challenge 1",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "100",
+    "name": "Sand Kingdom Timer Challenge 2",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "101",
+    "name": "Sand Kingdom Timer Challenge 3",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "102",
+    "name": "Found in the Sand! Good Dog!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "103",
+    "name": "Taking Notes: Jump on the Palm",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "104",
+    "name": "Herding Sheep in the Dunes",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "105",
+    "name": "Fishing in the Oasis",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "106",
+    "name": "Love in the Heart of the Desert",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "107",
+    "name": "Among the Five Cactuses",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "108",
+    "name": "You’re Quite a Catch, Captain Toad!",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "109",
+    "name": "Jaxi Reunion!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "110",
+    "name": "Welcome Back, Jaxi!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "111",
+    "name": "Wandering Cactus",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "112",
+    "name": "Sand Quiz: Wonderful!",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "113",
+    "name": "Shopping in Tostarena",
+    "kingdom": "Sand",
+    "post_game": false
+  },
+  {
+    "id": "114",
+    "name": "Employees Only",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "115",
+    "name": "Sand Kingdom Slots",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "116",
+    "name": "Walking the Desert!",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "117",
+    "name": "Hidden Room in the Inverted Pyramid",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "118",
+    "name": "Underground Treasure Chest",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "119",
+    "name": "Goomba Tower Assembly",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "120",
+    "name": "Under the Mummy’s Curse",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "121",
+    "name": "Ice Cave Treasure",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "122",
+    "name": "Sphynx’s Treasure Vault",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "123",
+    "name": "A Rumble from the Sandy Floor",
+    "kingdom": "Sand",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "124",
+    "name": "Dancing with New Friends",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "125",
+    "name": "The Invisible Maze",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "126",
+    "name": "Skull Sign in the Transparent Maze",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "127",
+    "name": "The Bullet Bill Maze: Break Through!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "128",
+    "name": "The Bullet Bill Maze: Side Path",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "129",
+    "name": "Jaxi Driver",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "130",
+    "name": "Jaxi Stunt Driving",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "131",
+    "name": "Strange Neighborhood",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "132",
+    "name": "Above a Strange Neighborhood",
+    "kingdom": "Sand",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "133",
+    "name": "Secret Path to Tostarena!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "134",
+    "name": "All warp painting locations in all kingdoms",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "135",
+    "name": "Found with Sand Kingdom Art",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "136",
+    "name": "Jammin’ in the Sand Kingdom",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "137",
+    "name": "Hat-and-Seek: In the Sand",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "138",
+    "name": "Sand Kingdom Regular Cup",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "139",
+    "name": "Binding Band Returned",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "140",
+    "name": "Round-the-World Tourist",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "141",
+    "name": "Peach in the Sand Kingdom",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "142",
+    "name": "Mighty Leap from the Palm Tree!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "143",
+    "name": "On the North Pillar",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "144",
+    "name": "Into the Flowing Sands",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "145",
+    "name": "In the Skies Above the Canyon",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "146",
+    "name": "Island in the Poison Swamp",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "147",
+    "name": "An invisible Gleam",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "148",
+    "name": "On the Eastern Pillar",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "149",
+    "name": "Caught Hopping in the Desert!",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "150",
+    "name": "Poster Cleanup",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "151",
+    "name": "Taking Notes: Running Down",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "152",
+    "name": "Taking Notes: In the Wall Painting",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "153",
+    "name": "Love at the Edge of the Desert",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "154",
+    "name": "More Walking in the Desert",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "155",
+    "name": "Sand Kingdom Master Cup",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "156",
+    "name": "Where the Transparent Platforms End",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "157",
+    "name": "Jump Onto the Transparent Lift",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "158",
+    "name": "Colossal Ruins: Dash! Jump!",
+    "kingdom": "Sand",
+    "post_game": true
+  },
+  {
+    "id": "159",
+    "name": "Sinking Colossal Ruins: Hurry!",
+    "kingdom": "Sand",
+    "post_game": true
+  },
+  {
+    "id": "160",
+    "name": "Through the Freezing Waterway",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "161",
+    "name": "Freezing Waterway: Hidden Room",
+    "kingdom": "Sand",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "162",
+    "name": "Broodals Over the Lake",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "163",
+    "name": "Dorrie-Back Rider",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "164",
+    "name": "Cheep Cheep Crossing",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "165",
+    "name": "End of the Hidden Passage",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "166",
+    "name": "What’s in the Box?",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "167",
+    "name": "On the Lakeshore",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "168",
+    "name": "From the Broken Pillar",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "169",
+    "name": "Treasure in the Spiky Waterway",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "170",
+    "name": "Lake Gardening: Spiky Passage Seed",
+    "kingdom": "Lake",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "171",
+    "name": "Lake Kingdom Timer Challenge 1",
+    "kingdom": "Lake",
+    "dark": true,
+    "post_game": false
+  },
+  {
+    "id": "172",
+    "name": "Lake Kingdom Timer Challenge 2",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "173",
+    "name": "Moon Shards in the Lake",
+    "kingdom": "Lake",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "174",
+    "name": "Taking Notes: Dive and Swim",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "175",
+    "name": "Taking Notes: In the Cliffside",
+    "kingdom": "Lake",
+    "post_game": false
+  },
+  {
+    "id": "176",
+    "name": "Lake Fishing",
+    "kingdom": "Lake",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "177",
+    "name": "I Met a Lake Cheep Cheep!",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "178",
+    "name": "Our Secret Little Room",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "179",
+    "name": "Let’s Go Swimming, Captain Toad!",
+    "kingdom": "Lake",
+    "post_game": false
+  },
+  {
+    "id": "180",
+    "name": "Shopping in Lake Lamode",
+    "kingdom": "Lake",
+    "post_game": false
+  },
+  {
+    "id": "181",
+    "name": "A Successful Repair Job",
+    "kingdom": "Lake",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "182",
+    "name": "I Feel Underdressed",
+    "kingdom": "Lake",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "183",
+    "name": "Unzip the Chasm",
+    "kingdom": "Lake",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "184",
+    "name": "Super-Secret Zipper",
+    "kingdom": "Lake",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "185",
+    "name": "Jump, Grab, Cling, and Climb",
+    "kingdom": "Lake",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "186",
+    "name": "Jump, Grab, and Climb Some More",
+    "kingdom": "Lake",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "187",
+    "name": "Secret Path to Lake Lamode!",
+    "kingdom": "Lake",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "188",
+    "name": "Found with Lake Kingdom Art",
+    "kingdom": "Cascade",
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "189",
+    "name": "Taxi Flying Through Lake Lamode",
+    "kingdom": "Lake",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "190",
+    "name": "That Trendy “Pirate” Look",
+    "kingdom": "Lake",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "191",
+    "name": "Space Is “In” Right Now",
+    "kingdom": "Lake",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "192",
+    "name": "That “Old West” Style",
+    "kingdom": "Lake",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "193",
+    "name": "Lake Kingdom Regular Cup",
+    "kingdom": "Lake",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "194",
+    "name": "Peach in the Lake Kingdom",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "195",
+    "name": "Behind the Floodgate",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "196",
+    "name": "High-Flying Leap",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "197",
+    "name": "Deep, Deep Down",
+    "kingdom": "Lake",
+    "post_game": true
+  },
+  {
+    "id": "198",
+    "name": "Rooftop of the Water Plaza",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "199",
+    "name": "Bird Traveling Over the Lake",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "200",
+    "name": "Love by the Lake",
+    "kingdom": "Lake",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "201",
+    "name": "Lake Kingdom Master Cup",
+    "kingdom": "Lake",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "202",
+    "name": "Waves of Poison: Hoppin’ Over",
+    "kingdom": "Lake",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "203",
+    "name": "Waves of Poison: Hop to It!",
+    "kingdom": "Lake",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "204",
+    "name": "Road to Sky Garden",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "205",
+    "name": "Flower Thieves of Sky Garden",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "206",
+    "name": "Path to the Secret Flower Field",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "207",
+    "name": "Defend the Secret Flower Field!",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "208",
+    "name": "Behind the Rock Wall",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "209",
+    "name": "Back Way Up the Mountain",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "210",
+    "name": "Rolling Rock in the Woods",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "211",
+    "name": "Caught Hopping in the Forest!",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "212",
+    "name": "Thanks for the Charge!",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "213",
+    "name": "Atop a Tall Tree",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "214",
+    "name": "Tucked Away Inside a Tunnel",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "215",
+    "name": "Over the Cliff’s Edge",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "216",
+    "name": "The Nut ‘Round The Corner",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "217",
+    "name": "Climb the Cliff to Get the Nut",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "218",
+    "name": "The Nut in the Red Maze",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "219",
+    "name": "The Nut at the Dead End",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "220",
+    "name": "Cracked Nut on a Crumbling Tower",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "221",
+    "name": "The Nut that Grew on the Tall Fence",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "222",
+    "name": "Fire in the Cave",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "223",
+    "name": "Hey Out There, Captain Toad!",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "224",
+    "name": "Love in the Forest Ruins",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "225",
+    "name": "Inside the Rock in the Forest",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "226",
+    "name": "Shopping in Steam Gardens",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "227",
+    "name": "Nut Planted in the Tower",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "228",
+    "name": "Stretching Your Legs",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "229",
+    "name": "Spinning-Platforms Treasure",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "230",
+    "name": "Make the Secret Flower Field Bloom",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "231",
+    "name": "Rolling Rock in the Deep Woods",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "232",
+    "name": "Glowing in the Deep Woods",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "233",
+    "name": "Past The Peculiar Pipes",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "234",
+    "name": "By the Babbling Brook in the Deep Woods",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "235",
+    "name": "The Hard Rock in Deep Woods",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "236",
+    "name": "A Treasure Made of Coins",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "237",
+    "name": "Beneath the Roots of a Moving Tree",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "238",
+    "name": "Deep Woods Treasure Trap",
+    "kingdom": "Wooded",
+    "post_game": false
+  },
+  {
+    "id": "239",
+    "name": "Exploring for Treasure",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "240",
+    "name": "Wooded Kingdom Timer Challenge 1",
+    "kingdom": "Wooded",
+    "post_game": false
+  },
+  {
+    "id": "241",
+    "name": "Wooded Kingdom Timer Challenge 2",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "242",
+    "name": "Flooding Pipeway",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "243",
+    "name": "Flooding Pipeway Ceiling Secret",
+    "kingdom": "Wooded",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "244",
+    "name": "Wandering in the Fog",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "245",
+    "name": "Nut Hidden in the Fog",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "246",
+    "name": "Flower Road Run",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "247",
+    "name": "Flower Road Reach",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "248",
+    "name": "Elevator Escalation",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "249",
+    "name": "Elevator Blind Spot",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "250",
+    "name": "Walking on Clouds",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "251",
+    "name": "Above the Clouds",
+    "kingdom": "Wooded",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "252",
+    "name": "Secret Path to the Steam Gardens",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "253",
+    "name": "Found with Wooded Kingdom Art",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "254",
+    "name": "Swing Around Secret Flower Field",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "255",
+    "name": "Jammin’ in the Wooded Kingdom",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "256",
+    "name": "Wooded Kingdom Regular Cup",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "257",
+    "name": "Peach in the Wooded Kingdom",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "258",
+    "name": "High Up in the Cave",
+    "kingdom": "Wooded",
+    "post_game": true
+  },
+  {
+    "id": "259",
+    "name": "Lost in the Tall Trees",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "260",
+    "name": "Looking Down on the Goombas",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "261",
+    "name": "High Up on a Rock Wall",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "262",
+    "name": "The Nut in the Robot Storeroom",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "263",
+    "name": "Above the Iron Mountain Path",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "264",
+    "name": "The Nut Under the Observation Deck",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "265",
+    "name": "Bird Traveling the Forest",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "266",
+    "name": "Invader in the Sky Garden",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "267",
+    "name": "Hot, Hot, Hot from the Campfire",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "268",
+    "name": "Wooded Kingdom Timer Challenge 3",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "269",
+    "name": "Moon Shards in the Forest",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "270",
+    "name": "Taking Notes: On Top of the Wall",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "271",
+    "name": "Taking Notes: Stretching",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "272",
+    "name": "Wooded Kingdom Master Cup",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "273",
+    "name": "I Met an Uproot!",
+    "kingdom": "Wooded",
+    "post_game": true
+  },
+  {
+    "id": "274",
+    "name": "Invisible Road: Danger!",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "275",
+    "name": "Invisible Road: Hidden Room",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "276",
+    "name": "Herding Sheep Above the Forest Fog",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "277",
+    "name": "Herding Sheep on the Iron Bridge",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "278",
+    "name": "Down and Back Breakdown Road",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "279",
+    "name": "Below Breakdown Road",
+    "kingdom": "Wooded",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "280",
+    "name": "Picture Match: Basically a Goomba",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "281",
+    "name": "Peach in the Cloud Kingdom",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "282",
+    "name": "Digging in the… Cloud?",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "283",
+    "name": "High, High Above the Clouds",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "284",
+    "name": "Crossing the Cloud Sea",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "285",
+    "name": "Taking Notes: Up and Down",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "286",
+    "name": "Picture Match: A Stellar Goomba!",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "287",
+    "name": "King of the Cube!",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "288",
+    "name": "The Sixth Face",
+    "kingdom": "Cloud",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "289",
+    "name": "Atop a Propeller Pillar",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "290",
+    "name": "Below the Cliff’s Edge",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "291",
+    "name": "Inside the Stone Cage",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "292",
+    "name": "On a Tree in the Swamp",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "293",
+    "name": "Over the Fuzzies, Above the Swamp",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "294",
+    "name": "Avoiding Fuzzies Inside the Wall",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "295",
+    "name": "Inside the Rising Stone Pillar",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "296",
+    "name": "Enjoying the View of Forgotten Isle",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "297",
+    "name": "On the Mountain Road",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "298",
+    "name": "A Propeller Pillar’s Secret",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "299",
+    "name": "Wrecked Rock Block",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "300",
+    "name": "A Butterfly’s Treasure",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "301",
+    "name": "Caught Hopping in the Jungle!",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "302",
+    "name": "Cave Gardening",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "303",
+    "name": "Moon Shards in the Jungle",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "304",
+    "name": "Peeking Out from Under the Bridge",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "305",
+    "name": "Twist ‘n’ Turn-Up Treasure",
+    "kingdom": "Lost",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "306",
+    "name": "Soaring Over the Forgotten Isle!",
+    "kingdom": "Lost",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "307",
+    "name": "The Caged Gold",
+    "kingdom": "Lost",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "308",
+    "name": "Get Some Rest, Captain Toad",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "309",
+    "name": "Shopping on Forgotten Isle",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "310",
+    "name": "Taxi Flying Through Forgotten Isle",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "311",
+    "name": "I met a Tropical Wiggler!",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "312",
+    "name": "Lost Kingdom Regular Cup",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "313",
+    "name": "Peach in the Lost Kingdom",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "314",
+    "name": "The Shining Fruit",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "315",
+    "name": "Jump Down to the Top of a Tree",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "316",
+    "name": "Line It Up, Blow It Up",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "317",
+    "name": "Taking Notes: Stretch and Shrink",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "318",
+    "name": "Lost Kingdom Master Cup",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "319",
+    "name": "Lost Kingdom Timer Challenge",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "320",
+    "name": "Stretch and Traverse the Jungle",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "321",
+    "name": "A glow in the Jungle",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "322",
+    "name": "Chasing Klepto",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "323",
+    "name": "Extremely Hot Bath",
+    "kingdom": "Lost",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "324",
+    "name": "New Donk City’s Pest Problem",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "325",
+    "name": "Drummer on Board!",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "326",
+    "name": "Guitarist on Board!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "327",
+    "name": "Bassist on Board!",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "328",
+    "name": "Trumpeter on Board!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "329",
+    "name": "Powering Up the Station",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "330",
+    "name": "A Traditional Festival!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "331",
+    "name": "Inside an Iron Girder",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "332",
+    "name": "Swaying in the Breeze",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "333",
+    "name": "Girder Sandwich",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "334",
+    "name": "Glittering Above the Pool",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "335",
+    "name": "Dizzying Heights",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "336",
+    "name": "Secret Girder Tunnel!",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "337",
+    "name": "Who Piled Garbage on This?",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "338",
+    "name": "Hidden in the Scrap",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "339",
+    "name": "Left at the Cafe?",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "340",
+    "name": "Caught Hopping on a Building!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "341",
+    "name": "How Do They Take Out the Trash?",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "342",
+    "name": "Metro Kingdom Timer Challenge 1",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "343",
+    "name": "Metro Kingdom Timer Challenge 2",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "344",
+    "name": "City Gardening: Building Planter",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "345",
+    "name": "City Gardening: Plaza Planter",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "346",
+    "name": "City Gardening: Rooftop Planter",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "347",
+    "name": "How You Doin’, Captain Toad?",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "348",
+    "name": "Free Parking: Rooftop Hop",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "349",
+    "name": "Bench Friends",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "350",
+    "name": "Shopping in New Donk City",
+    "kingdom": "Metro",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "351",
+    "name": "Metro Kingdom Slots",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "352",
+    "name": "Jump-Rope Hero",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "353",
+    "name": "Jump-Rope Genius",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "354",
+    "name": "Remotely Captured Car",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "355",
+    "name": "RC Car Pro!",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "356",
+    "name": "Taking Notes: In the Private Room",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "357",
+    "name": "City Hall Lost & Found",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "358",
+    "name": "Sewer Treasure",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "359",
+    "name": "Celebrating in the Streets!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "360",
+    "name": "Pushing Through the Crowd",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "361",
+    "name": "High Over the Crowd",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "362",
+    "name": "Rewiring the Neighborhood",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "363",
+    "name": "Off the Beaten Wire",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "364",
+    "name": "Moon Shards Under Siege",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "365",
+    "name": "Sharpshooting Under Siege",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "366",
+    "name": "Inside the Rotating Maze",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "367",
+    "name": "Outside the Rotating Maze",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "368",
+    "name": "Hanging from a High-Rise",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "369",
+    "name": "Vaulting Up a High-Rise",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "370",
+    "name": "Bullet Billding",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "371",
+    "name": "One Man’s Trash…",
+    "kingdom": "Metro",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "372",
+    "name": "Motor Scooter: Escape!",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "373",
+    "name": "Big Jump: Escape!",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "374",
+    "name": "Secret Path to New Donk City!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "375",
+    "name": "A Tourist in the Metro Kingdom!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "376",
+    "name": "Found with Metro Kingdom Art",
+    "kingdom": "Lake",
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "377",
+    "name": "Bird Traveling in the City",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "378",
+    "name": "Mario Signs His Name",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "379",
+    "name": "Surprise Clown!",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "380",
+    "name": "A Request from the Mayor",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "381",
+    "name": "Jammin’ in the Metro Kingdom",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "382",
+    "name": "Sphynx in the City",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "383",
+    "name": "Free Parking: Leap of Faith",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "384",
+    "name": "Metro Kingdom Regular Cup",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "385",
+    "name": "Hat-and-Seek: In the City",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "386",
+    "name": "Powering Up the Power Plant",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "387",
+    "name": "Up on the Big Screen",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "388",
+    "name": "Down Inside the Big Screen",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "389",
+    "name": "Peach in the Metro Kingdom",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "390",
+    "name": "Hanging Between Buildings",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "391",
+    "name": "Crossing Lines",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "392",
+    "name": "Out of a Crate in the City",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "393",
+    "name": "Bird Traveling in the Park",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "394",
+    "name": "Metro Kingdom Timer Challenge 3",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "395",
+    "name": "Found in the Park! Good Dog!",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "396",
+    "name": "RC Car Champ!",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "397",
+    "name": "Metro Kingdom Master Cup",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "398",
+    "name": "Hat-and-Seek: In the Crowd",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "399",
+    "name": "Scaling Pitchblack Mountain",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "400",
+    "name": "Reaching Pitchblack Island",
+    "kingdom": "Metro",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "401",
+    "name": "Swinging Scaffolding: Jump!",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "402",
+    "name": "Swinging Scaffolding: Break!",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "403",
+    "name": "Moto Scooter: Daredevil!",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "404",
+    "name": "Full-Throttle Scooting!",
+    "kingdom": "Metro",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "405",
+    "name": "The Stone Pillar Seal",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "406",
+    "name": "The Lighthouse Seal",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "407",
+    "name": "The Hot Spring Seal",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "408",
+    "name": "The Seal Above the Canyon",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "409",
+    "name": "The Glass Is Half Full!",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "410",
+    "name": "On the Cliff Overlooking the Beach",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "411",
+    "name": "Ride the Jetstream",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "412",
+    "name": "Ocean-Bottom Maze: Treasure",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "413",
+    "name": "Ocean-Bottom Maze: Hidden Room",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "414",
+    "name": "Underwater Highway Tunnel",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "415",
+    "name": "Shh! It’s a Shortcut!",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "416",
+    "name": "Gap in the Ocean Trench",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "417",
+    "name": "Slip Through the Nesting Spot",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "418",
+    "name": "Merci, Dorrie!",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "419",
+    "name": "Bonjour, Dorrie!",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "420",
+    "name": "Under a Dangerous Ceiling",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "421",
+    "name": "What the Waves Left Behind",
+    "kingdom": "Seaside",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "422",
+    "name": "The Back Canyon: Excavate!",
+    "kingdom": "Seaside",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "423",
+    "name": "Bubblaine Northern Reaches",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "424",
+    "name": "Wriggling on the Sandy Bottom",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "425",
+    "name": "Glass Palace Treasure Chest",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "426",
+    "name": "Treasure Trap Hidden in the Inlet",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "427",
+    "name": "Sea Gardening: Inlet Seed",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "428",
+    "name": "Sea Gardening Canyon Seed",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "429",
+    "name": "Sea Gardening: Hot-Spring Seed",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "430",
+    "name": "Sea Gardening: Ocean Trench Seed",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "431",
+    "name": "Seaside Kingdom Timer Challenge 1",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "432",
+    "name": "Seaside Kingdom Timer Challenge 2",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "433",
+    "name": "Found on the Beach! Good Dog!",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "434",
+    "name": "Moon Shards in the Sea",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "435",
+    "name": "Taking Notes: Ocean Surface Dash",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "436",
+    "name": "Love by the Seaside",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "437",
+    "name": "Lighthouse Leaper",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "438",
+    "name": "Good Job, Captain Toad!",
+    "kingdom": "Seaside",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "439",
+    "name": "Ocean Quiz: Good!",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "440",
+    "name": "Shopping in Bubblaine",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "441",
+    "name": "Beach Volleyball: Champ",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "442",
+    "name": "Beach Volleyball: Hero of the Beach!",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "443",
+    "name": "Looking Back in the Dark Waterway",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "444",
+    "name": "The Sphynx’s Underwater Vault",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "445",
+    "name": "A Rumble on the Seaside Floor",
+    "kingdom": "Seaside",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "446",
+    "name": "A Relaxing Dance",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "447",
+    "name": "Wading in the Cloud Sea",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "448",
+    "name": "Sunken Treasure in the Cloud Sea",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "449",
+    "name": "Fly Through the Narrow Valley",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "450",
+    "name": "Treasure Chest in the Narrow Valley",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "451",
+    "name": "Hurry and Stretch",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "452",
+    "name": "Stretch on the Side Path",
+    "kingdom": "Seaside",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "453",
+    "name": "Secret Path to Bubblaine",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "454",
+    "name": "Found with Seaside Kingdom Art",
+    "kingdom": "Metro",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "455",
+    "name": "Seaside Kingdom Regular Cup",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "456",
+    "name": "Peach in the Seaside Kingdom",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "457",
+    "name": "Above the Parasol: Catch!",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "458",
+    "name": "What Shines Inside the Glass",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "459",
+    "name": "A Fine Detail on the Glass",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "460",
+    "name": "Underwater Highway West: Explore!",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "461",
+    "name": "Underwater Highway East: Explore!",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "462",
+    "name": "Rapid Ascent on Hot Spring Island",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "463",
+    "name": "A Light Next to the Lighthouse",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "464",
+    "name": "The Tall Rock Shelf in the Deep Ocean",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "465",
+    "name": "At the Base of the Lighthouse",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "466",
+    "name": "Bird Traveling Over the Ocean",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "467",
+    "name": "Caught Hopping at Glass Palace!",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "468",
+    "name": "Seaside Kingdom Timer Challenge 3",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "469",
+    "name": "Taking Notes: Ocean-Bottom Maze",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "470",
+    "name": "Taking Notes in the Sea",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "471",
+    "name": "Seaside Kingdom Master Cup",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "472",
+    "name": "Aim! Poke!",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "473",
+    "name": "Poke! Roll!",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "474",
+    "name": "The Spinning Maze: Search!",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "475",
+    "name": "The Spinning Maze: Open!",
+    "kingdom": "Seaside",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "476",
+    "name": "The Icicle Barrier",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "477",
+    "name": "The Ice Wall Barrier",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "478",
+    "name": "The Gusty Barrier",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "479",
+    "name": "The Snowy Mountain Barrier",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "480",
+    "name": "The Bound Bowl Grand Prix",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "481",
+    "name": "Entrance to Shiveria",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "482",
+    "name": "Behind the Snowy Mountain",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "483",
+    "name": "Shining in the Snow in Town",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "484",
+    "name": "Atop a Blustery Arch",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "485",
+    "name": "Caught Hopping in the Snow!",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "486",
+    "name": "The Shiverian Treasure Chest",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "487",
+    "name": "Treasure in the Ice Wall",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "488",
+    "name": "Snow Kingdom Timer Challenge 1",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "489",
+    "name": "Snow Kingdom Timer Challenge 2",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "490",
+    "name": "Moon Shards in the Snow",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "491",
+    "name": "Taking Notes: Snow Path Dash",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "492",
+    "name": "Fishing in the Glacier!",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "493",
+    "name": "Ice-Dodging Goomba Stack",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "494",
+    "name": "Captain Toad is Chilly!",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "495",
+    "name": "I’m Not Cold!",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "496",
+    "name": "Shopping in Shiveria",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "497",
+    "name": "Walking on Ice!",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "498",
+    "name": "Snowline Circuit Class S",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "499",
+    "name": "Dashing Over Cold Water!",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "500",
+    "name": "Dashing Above and Beyond!",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "501",
+    "name": "Jump ‘n’ Swim in the Freezing Water",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "502",
+    "name": "Freezing Water Near the Ceiling",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "503",
+    "name": "Blowing and Sliding",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "504",
+    "name": "Moon Shards in the Cold Room",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "505",
+    "name": "Slip Behind the Ice",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "506",
+    "name": "Spinning Above the Clouds",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "507",
+    "name": "High-Altitude Spinning",
+    "kingdom": "Snow",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "508",
+    "name": "Secret Path to Shiveria!",
+    "kingdom": "Snow",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "509",
+    "name": "Found with Snow Kingdom Art",
+    "kingdom": "Lost",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "510",
+    "name": "Snow Kingdom Regular Cup",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "511",
+    "name": "Hat-and-Seek in the Snow",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "512",
+    "name": "Peach in the Snow Kingdom",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "513",
+    "name": "Shining on High",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "514",
+    "name": "Above the Freezing Fish Pond",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "515",
+    "name": "Ice Floe Swimming",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "516",
+    "name": "Icy Jump Challenge",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "517",
+    "name": "Forgotten in the Holding Room",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "518",
+    "name": "It Popped Out of the Ice",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "519",
+    "name": "Deep in the Cold, Cold Water",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "520",
+    "name": "Water Pooling in the Crevasse",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "521",
+    "name": "Squirming Under the Ice",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "522",
+    "name": "Snow Kingdom Timer Challenge 3",
+    "kingdom": "Snow",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "523",
+    "name": "Stacked-Up Ice Climb",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "524",
+    "name": "I Met a Snow Cheep Cheep!",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "525",
+    "name": "Even More Walking on Ice!",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "526",
+    "name": "Snow Kingdom Master Cup",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "527",
+    "name": "Iceburn Circuit Class A",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "528",
+    "name": "Iceburn Circuit Class S",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "529",
+    "name": "Running the Flower Road",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "530",
+    "name": "Looking Back on the Flower Road",
+    "kingdom": "Snow",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "531",
+    "name": "The Broodals Are After Some Cookin’",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "532",
+    "name": "Under the Cheese Rocks",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "533",
+    "name": "Big Pot on the Volcano: Dive In!",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "534",
+    "name": "Climb Up the Cascading Magma",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "535",
+    "name": "Cookatiel Showdown!",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "536",
+    "name": "Piled on the Salt",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "537",
+    "name": "Lurking in the Pillar’s Shadow",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "538",
+    "name": "Atop the Jutting Crag",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "539",
+    "name": "Is This an Ingredient Too?!",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "540",
+    "name": "Atop a Column in a Row",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "541",
+    "name": "Surrounded by Tall Mountains",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "542",
+    "name": "Island of Salt Floating in the Lava",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "543",
+    "name": "Overlooking a Bunch of Ingredients",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "544",
+    "name": "Light the Lantern on the Small Island",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "545",
+    "name": "Golden Turnip Recipe 1",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "546",
+    "name": "Golden Turnip Recipe 2",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "547",
+    "name": "Golden Turnip Recipe 3",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "548",
+    "name": "Luncheon Kingdom Timer Challenge 1",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "549",
+    "name": "Luncheon Kingdom Timer Challenge 2",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "550",
+    "name": "Luncheon Kingdom Timer Challenge 3",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "551",
+    "name": "Beneath the Rolling Vegetables",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "552",
+    "name": "All the Cracks Are Fixed",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "553",
+    "name": "Taking Notes: Swimming in Magma",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "554",
+    "name": "Love Above the Lava",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "555",
+    "name": "Shopping in Mount Volbono",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "556",
+    "name": "Luncheon Kingdom Slots",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "557",
+    "name": "A Strong Simmer",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "558",
+    "name": "An Extreme Simmer",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "559",
+    "name": "Alcove Behind the Pillars of Magma",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "560",
+    "name": "Treasure Beneath the Cheese Rocks",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "561",
+    "name": "Light the Two Flames",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "562",
+    "name": "Light the Far-Off Lanterns",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "563",
+    "name": "Bon Appetit, Captain Toad!",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "564",
+    "name": "The Treasure Chest in the Veggies",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "565",
+    "name": "Caught Hopping at the Volcano!",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "566",
+    "name": "Taking Notes: Big Pot Swim",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "567",
+    "name": "Magma Swamp: Floating and Sinking",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "568",
+    "name": "Corner of the Magma Swamp",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "569",
+    "name": "Magma Narrow Path",
+    "kingdom": "Luncheon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "570",
+    "name": "Crossing to the Magma",
+    "kingdom": "Luncheon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "571",
+    "name": "Fork Flickin’ to the Summit",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "572",
+    "name": "Fork Flickin’ Detour",
+    "kingdom": "Luncheon",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "573",
+    "name": "Excavate ‘n’ Search the Cheese Rocks",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "574",
+    "name": "Climb the Cheese Rocks",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "575",
+    "name": "Spinning Athletics End Goal",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "576",
+    "name": "Taking Notes: Spinning Athletics",
+    "kingdom": "Luncheon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "577",
+    "name": "Secret Path to Mount Volbono!",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "578",
+    "name": "A Tourist in the Luncheon Kingdom!",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "579",
+    "name": "Found with Luncheon Kingdom Art",
+    "kingdom": "Seaside",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "580",
+    "name": "The Rooftop Lantern",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "581",
+    "name": "Jammin’ in the Luncheon Kingdom",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "582",
+    "name": "Mechanic: Repairs Complete!",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "583",
+    "name": "Diving from the Big Pot!",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "584",
+    "name": "Hat-and-Seek: Among the Food",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "585",
+    "name": "Luncheon Kingdom: Regular Cup",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "586",
+    "name": "Peach in the Luncheon Kingdom",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "587",
+    "name": "From Inside a Bright Stone",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "588",
+    "name": "Under the Meat Plateau",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "589",
+    "name": "On Top of a Tall, Tall Roof",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "590",
+    "name": "From a Crack in the Hard Ground",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "591",
+    "name": "By the Cannon Pointed at the Big Pot",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "592",
+    "name": "Luncheon Kingdom: Master Cup",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "593",
+    "name": "Stepping Over the Gears and Lanterns on the Gear Steps",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "594",
+    "name": "Lanterns on the Gear Steps",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "595",
+    "name": "Volcano Cave Cruisin’",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "596",
+    "name": "Volcano Cave and Mysterious Clouds",
+    "kingdom": "Luncheon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "597",
+    "name": "Treasure of the Lava Islands",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "598",
+    "name": "Flying Over the Lava Islands",
+    "kingdom": "Luncheon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "599",
+    "name": "Battle with the Lord of Lightning!",
+    "kingdom": "Ruined",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "600",
+    "name": "In the Ancient Treasure Chest",
+    "kingdom": "Ruined",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "601",
+    "name": "Roulette Tower: Climbed",
+    "kingdom": "Ruined",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "602",
+    "name": "Roulette Tower: Stopped",
+    "kingdom": "Ruined",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "603",
+    "name": "Peach in the Ruined Kingdom",
+    "kingdom": "Ruined",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "604",
+    "name": "Caught in a Big Horn",
+    "kingdom": "Ruined",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "605",
+    "name": "Upon the Broken Arch",
+    "kingdom": "Ruined",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "606",
+    "name": "Rolling Rock on the Battlefield",
+    "kingdom": "Ruined",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "607",
+    "name": "Charging Through an Army",
+    "kingdom": "Ruined",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "608",
+    "name": "The Mummy’s Curse",
+    "kingdom": "Ruined",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "609",
+    "name": "Infiltrate Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "610",
+    "name": "Smart Bombing",
+    "kingdom": "Bowsers",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "611",
+    "name": "Big Broodal Battle",
+    "kingdom": "Bowsers",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "612",
+    "name": "Showdown at Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "613",
+    "name": "Behind the Big Wall",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "614",
+    "name": "Treasure Inside the Turret",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "615",
+    "name": "From the Side above the Castle Gate",
+    "kingdom": "Bowsers",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "616",
+    "name": "Sunken Treasure in the Moat",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "617",
+    "name": "Past the Moving Wall",
+    "kingdom": "Bowsers",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "618",
+    "name": "Above the Poison Swamp",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "619",
+    "name": "Knocking Down the Nice Frame",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "620",
+    "name": "Caught on the Iron Fence",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "621",
+    "name": "On the Giant Bowser Statue’s Nose",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "622",
+    "name": "Inside a Block in the Castle",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "623",
+    "name": "Caught Hopping at Bowser’s Castle!",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "624",
+    "name": "Exterminate the Ogres!",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "625",
+    "name": "Bowser’s Kingdom Timer Challenge 1",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "626",
+    "name": "Taking notes: Between spinies",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "627",
+    "name": "Stack up above the wall",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "628",
+    "name": "Hidden Corridor Under the Floor",
+    "kingdom": "Bowsers",
+    "any_percent": true,
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "629",
+    "name": "Poking Your Nose in the Plaster Wall",
+    "kingdom": "Bowsers",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "630",
+    "name": "Poking the Turret Wall",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "631",
+    "name": "Poking Your Nose by the Great Gate",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "632",
+    "name": "Jizo All in a Row",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "633",
+    "name": "Underground Jizo",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "634",
+    "name": "Found Behind Bars!",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "635",
+    "name": "Fishing(?) in Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "636",
+    "name": "Good to See You, Captain Toad!",
+    "kingdom": "Bowsers",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "637",
+    "name": "Shopping at Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "638",
+    "name": "Bowser’s Castle Treasure Vault",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "639",
+    "name": "Scene of Crossing the Poison Swamp",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "640",
+    "name": "Taking Notes: In the Folding Screen",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "641",
+    "name": "On Top of the Spinning Tower",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "642",
+    "name": "Down and Up the Spinning Tower",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "643",
+    "name": "Jizo’s Big Adventure",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "644",
+    "name": "Jizo and the Hidden Room",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "645",
+    "name": "Dashing Above the Clouds",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "646",
+    "name": "Dashing Through the Clouds",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "647",
+    "name": "Sphynx Over Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "648",
+    "name": "I Met a Pokio!",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "649",
+    "name": "Bowser’s Kingdom Regular Cup",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "650",
+    "name": "A Rumble Under the Arena Floor",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "651",
+    "name": "Secret Path to Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "652",
+    "name": "Peach in Bowser’s Kingdom",
+    "kingdom": "Bowsers",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "653",
+    "name": "Found with Bowser’s Kingdom Art",
+    "kingdom": "Sand",
+    "darker": true,
+    "post_game": false
+  },
+  {
+    "id": "654",
+    "name": "Behind the Tall Wall: Poke, Poke!",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "655",
+    "name": "From Crates in the Moat",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "656",
+    "name": "Caught on the Giant Horn",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "657",
+    "name": "Inside a Block at the Gate",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "658",
+    "name": "Small Bird in Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "659",
+    "name": "Invader in Bowser’s Castle",
+    "kingdom": "Bowsers",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "660",
+    "name": "Jumping from Flag to Flag",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "661",
+    "name": "Bowser’s Kingdom Timer Challenge 2",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "662",
+    "name": "Taking Notes: On the Wall",
+    "kingdom": "Bowsers",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "663",
+    "name": "Taking Notes with a Spinning Throw",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "664",
+    "name": "Third Courtyard Outskirts",
+    "kingdom": "Bowsers",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "665",
+    "name": "Stone Wall Circuit",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "666",
+    "name": "Bowser’s Kingdom Master Cup",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "667",
+    "name": "Searching Hexagon Tower",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "668",
+    "name": "Center of Hexagon Tower",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "669",
+    "name": "Climb the Wooden Tower",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "670",
+    "name": "Poke the Wooden Tower",
+    "kingdom": "Bowsers",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "671",
+    "name": "Shining Above the Moon",
+    "kingdom": "Moon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "672",
+    "name": "Along the Cliff Face",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "673",
+    "name": "The Tip of a White Spire",
+    "kingdom": "Moon",
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "674",
+    "name": "Rolling Rock on the Moon",
+    "kingdom": "Moon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "675",
+    "name": "Caught Hopping on the Moon!",
+    "kingdom": "Moon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "676",
+    "name": "Cliffside Treasure Chest",
+    "kingdom": "Moon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "677",
+    "name": "Moon Kingdom Timer Challenge 1",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "678",
+    "name": "Taking Notes: On the Moon’s Surface",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "679",
+    "name": "Under the Bowser Statue",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "680",
+    "name": "In a Hole in the Magma",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "681",
+    "name": "Around the Barrier Wall",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "682",
+    "name": "On Top of the Cannon",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "683",
+    "name": "Fly to the Treasure Chest and Back",
+    "kingdom": "Moon",
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "684",
+    "name": "Up in the Rafters",
+    "kingdom": "Moon",
+    "dark": true,
+    "darker": true,
+    "post_game": false,
+    "missing_image": true
+  },
+  {
+    "id": "685",
+    "name": "Sneaking Around in the Crater",
+    "kingdom": "Moon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "686",
+    "name": "Found on the Moon, Good Dog!",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "687",
+    "name": "Moon Shards on the Moon",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "688",
+    "name": "Moon Quiz: Amazing!",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "689",
+    "name": "Thanks, Captain Toad!",
+    "kingdom": "Moon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "690",
+    "name": "Shopping in Honeylune Ridge",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "691",
+    "name": "Walking on the Moon!",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "692",
+    "name": "Moon Kingdom Regular Cup",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "693",
+    "name": "Doctor in the House",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "694",
+    "name": "Sphynx’s Hidden Vault",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "695",
+    "name": "A Tourist in the Moon Kingdom",
+    "kingdom": "Moon",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "696",
+    "name": "Peach in the Moon Kingdom",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "697",
+    "name": "Found with Moon Kindgom Art",
+    "kingdom": "Wooded",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "698",
+    "name": "Mysterious Flying Object",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "699",
+    "name": "Hidden on the Side of the Cliff",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "700",
+    "name": "Jumping High as a Frog",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "701",
+    "name": "Moon Kingdom Timer Challenge 2",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "702",
+    "name": "Walking on the Moon: Again!",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "703",
+    "name": "Moon Kingdom Master Cup",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "704",
+    "name": "Taking Notes: In Low Gravity",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "705",
+    "name": "Center of the Galaxy",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "706",
+    "name": "Edge of the Galaxy",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "707",
+    "name": "Navigating Giant Swings",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "708",
+    "name": "A Swing on Top of a Swing",
+    "kingdom": "Moon",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "709",
+    "name": "Perched on the Castle Roof",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "710",
+    "name": "Pops out of the Tail",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "711",
+    "name": "Caught Hopping at Peach’s Castle!",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "712",
+    "name": "Gardening for Toad: Garden Seed",
+    "kingdom": "Mushroom",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "713",
+    "name": "Gardening for Toad: Field Seed",
+    "kingdom": "Mushroom",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "714",
+    "name": "Gardening for Toad: Pasture Seed",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "715",
+    "name": "Gardening for Toad: Lake Seed",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "716",
+    "name": "Grow a Flower Garden",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "717",
+    "name": "Mushroom Kingdom Timer Challenge",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "718",
+    "name": "Found at Peach’s Castle! Good Dog!",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "719",
+    "name": "Taking Notes: Around the Well",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "720",
+    "name": "Herding Sheep at Peach’s Castle",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "721",
+    "name": "Gobbling Fruit with Yoshi",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "722",
+    "name": "Yoshi’s Second Helping!",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "723",
+    "name": "Yoshi’s All Filled Up!",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "724",
+    "name": "Love at Peach’s Castle",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "725",
+    "name": "Toad Defender",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "726",
+    "name": "Forever Onward, Captain Toad!",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "727",
+    "name": "Jammin’ in the Mushroom Kingdom",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "728",
+    "name": "Shopping Near Peach’s Castle",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "729",
+    "name": "Mushroom Kingdom Regular Cup",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "730",
+    "name": "Mushroom Kingdom Master Cup",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "731",
+    "name": "Picture Match: Basically Mario",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "732",
+    "name": "Picture Match: A Stellar Mario!",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "733",
+    "name": "Light from the Ceiling",
+    "kingdom": "Mushroom",
+    "dark": true,
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "734",
+    "name": "Loose-Tile Trackdown",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "735",
+    "name": "Totally Classic",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "736",
+    "name": "Courtyard Chest Trap",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "737",
+    "name": "Yoshi’s Feast in the Sea of Clouds",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "738",
+    "name": "Sunken Star in the Sea of Clouds",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "739",
+    "name": "Secret 2D Treasure",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "740",
+    "name": "2D Boost from Bullet Bill",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "741",
+    "name": "Tussle in Toastarena: Rematch",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "742",
+    "name": "Struggle in Steam Gardens: Rematch",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "743",
+    "name": "Dust-Up in New Donk City: Rematch",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "744",
+    "name": "Battle in Bubblaine: Rematch",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "745",
+    "name": "Blowup at Mount Volbono: Rematch",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "746",
+    "name": "Rumble in Crumbleden: Rematch",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "747",
+    "name": "Secret Path to Peach’s Castle!",
+    "kingdom": "Mushroom",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "748",
+    "name": "A Tourist in the Mushroom Kingdom",
+    "kingdom": "Mushroom",
+    "darker": true,
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "749",
+    "name": "Found with Mushroom Kingdom Art",
+    "kingdom": "Cap",
+    "dark": true,
+    "darker": true,
+    "post_game": true
+  },
+  {
+    "id": "750",
+    "name": "Hat-and-Seek: Mushroom Kingdom",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "751",
+    "name": "Princess Peach, Home Again!",
+    "kingdom": "Mushroom",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "752",
+    "name": "Arrival at Rabbit Ridge",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "753",
+    "name": "Captain Toad on the Dark Side!",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "754",
+    "name": "Breakdown Road: Hurry",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "755",
+    "name": "Breakdown Road: Final Challenge!",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "756",
+    "name": "Invisible Road: Rush!",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "757",
+    "name": "Invisible Road: Secret!",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "758",
+    "name": "Vanishing Road Rush",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "759",
+    "name": "Vanishing Road Challenge",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "760",
+    "name": "Yoshi Under Siege",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "761",
+    "name": "Fruit Feast Under Siege",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "762",
+    "name": "Yoshi on the Sinking Island",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "763",
+    "name": "Fruit Feast on the Sinking Island",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "764",
+    "name": "Yoshi’s Magma Swamp",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  },
+  {
+    "id": "765",
+    "name": "Fruit Feast in the Magma Swamp!",
+    "kingdom": "Dark",
+    "post_game": true,
+    "missing_image": true
+  }
+]

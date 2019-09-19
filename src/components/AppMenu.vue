@@ -17,7 +17,7 @@
       <div class="dropdown" :class="{active: dropdown === 'difficulty'}">
         <dl @click="dropdown = (dropdown === 'difficulty') ? null : 'difficulty'">
           <dt>Difficulty</dt>
-          <dd class="small">{{ options.difficulty | capitalize }}{{ options.includeDLC ? '+' : '' }}</dd>
+          <dd class="small">{{ options.difficulty === 'any_percent' ? "any percent" : options.difficulty | capitalize }}{{ options.includeDLC ? '+' : '' }}</dd>
         </dl>
 
         <div class="dropdown-content">
@@ -61,7 +61,7 @@ export default {
           soundOn: true,
           includeDLC: false,
           chooseFrom: 4,
-          difficulty: 'normal'
+          difficulty: 'any_percent'
         }
       }
     },
@@ -79,7 +79,7 @@ export default {
   data () {
     return {
       dropdown: null,
-      difficulties: ['easy', 'normal', 'hard']
+      difficulties: ['any_percent', 'dark', 'darker']
     }
   },
   methods: {
@@ -161,7 +161,7 @@ export default {
   float: left;
   margin: 0;
   padding: 5px 0;
-  width: 80px;
+  width: 110px;
   height: 80px;
   border: solid 1px #fff;
   background: #060903;

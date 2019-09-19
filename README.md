@@ -1,6 +1,6 @@
 # learntheshrines
 
-> A flashcard app for botw shrines
+> A flashcard app for super mario odyssey moons, based off of the base code from https://gitlab.trash.cat/cb/learntheshrines
 
 ## Build Setup
 

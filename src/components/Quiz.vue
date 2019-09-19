@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import shrines from '../assets/shrinedata.json'
+import shrines from '../assets/moonlist.json'
 import _ from 'lodash'
 
 function Sound (src) {
@@ -43,7 +43,7 @@ export default {
           soundOn: true,
           includeDLC: false,
           chooseFrom: 4,
-          difficulty: 'normal'
+          difficulty: 'any_percent'
         }
       }
     }
@@ -61,36 +61,44 @@ export default {
       questionTimeoutCorrect: 2000,
       questionTimeoutIncorrect: 4000,
       quizTypes: {
-        easy: [
+        any_percent: [
+          /*
           'guessTheTrial',
           'guessTheShrineFromQuest',
           'guessTheShrineFromLandmark',
           'guessTheShrine',
           'guessTheShrine',
+          */
           'guessTheShrine'
         ],
-        normal: [
+        dark: [
+          'guessTheShrineDark'
+          /*
           'guessTheMonk',
           'guessTheTrial',
-          'guessTheShrine',
           'guessTheShrine',
           'guessTheShrine',
           'guessTheShrineFromQuest',
           'guessTheShrineFromLandmark',
           'guessTheLandmark',
           'guessTheQuest'
+          */
         ],
-        hard: [
+        darker: [
+          /*
           'guessTheMonk',
           'guessTheMonk',
           'guessTheMonk',
           'guessTheTrial',
-          'guessTheShrine',
+          */
+          'guessTheShrineDarker'
+          /*
           'guessTheShrineFromQuest',
           'guessTheShrineFromLandmarkHard',
           'guessTheLandmarkHard',
           'guessTheQuest',
           'guessTheItem'
+          */
         ]
       },
       answered: null,
@@ -328,36 +336,117 @@ export default {
         id: shrine.id
       }
     },
+
+    // ** THIS IS THE FUNCTION WE WANT TO WORK AROUND **
+    guessTheShrine () {
+      const set = _.filter(shrines, o => {
+        return !o.missing_image && (o.any_percent === true)
+      }) // GET A SET OF SHRINES THAT FOLLOW DLC RULES FOR QUIZ, AND HAVE IMAGES
+
+      if (set.length < 1) this.newQuestion() // idk
+      const shrine = this.randomShrine(set)// get a random shrine from our set
+
+      const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
+        o => {
+          return (o.kingdom === shrine.kingdom) && (o.id !== shrine.id) && (o.any_percent === true)
+          // is DLC enabled? if so, mix it in
+        } // include o in the choices if it is in the same region and it follows dlc rules for quiz, and it is not the shrine
+      )), 0, this.options.chooseFrom - 1)))
+
+      return {
+        choices: _.map(choices, o => `${o.name}`),
+        answer: _.indexOf(choices, shrine), // answer is the index of choices that matches the shrine
+        image: `${shrine.id}`,
+        imageAnswered: `${shrine.id}`,
+        title: `This moon is in the <strong>${shrine.kingdom}</strong> kingdom(id: ${shrine.id})`, // can change to include kingdom name
+        id: shrine.id
+      }
+    },
+    guessTheShrineDark () {
+      const set = _.filter(shrines, o => {
+        return this.hasImages(o, ['external', 'title']) && (o.dark === true)
+      }) // GET A SET OF SHRINES THAT FOLLOW DLC RULES FOR QUIZ, AND HAVE IMAGES
+
+      if (set.length < 1) this.newQuestion() // idk
+      const shrine = this.randomShrine(set)// get a random shrine from our set
+
+      const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
+        o => {
+          return (o.kingdom === shrine.kingdom) && (o.id !== shrine.id) && (o.dark === true)
+          // is DLC enabled? if so, mix it in
+        } // include o in the choices if it is in the same region and it follows dlc rules for quiz, and it is not the shrine
+      )), 0, this.options.chooseFrom - 1)))
+
+      return {
+        choices: _.map(choices, o => `${o.name}`),
+        answer: _.indexOf(choices, shrine), // answer is the index of choices that matches the shrine
+        image: `${shrine.id}-external`,
+        imageAnswered: `${shrine.id}-title`,
+        title: `This moon is in the <strong>${shrine.kingdom}</strong> kingdom(id: ${shrine.id})`, // can change to include kingdom name
+        id: shrine.id
+      }
+    },
+    guessTheShrineDarker () {
+      const set = _.filter(shrines, o => {
+        return this.hasImages(o, ['external', 'title']) && (o.darker === true)
+      }) // GET A SET OF SHRINES THAT FOLLOW DLC RULES FOR QUIZ, AND HAVE IMAGES
+
+      if (set.length < 1) this.newQuestion() // idk
+      const shrine = this.randomShrine(set)// get a random shrine from our set
+
+      const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
+        o => {
+          return (o.kingdom === shrine.kingdom) && (o.id !== shrine.id) && (o.any_percent === true)
+          // is DLC enabled? if so, mix it in
+        } // include o in the choices if it is in the same region and it follows dlc rules for quiz, and it is not the shrine
+      )), 0, this.options.chooseFrom - 1)))
+
+      return {
+        choices: _.map(choices, o => `${o.name}`),
+        answer: _.indexOf(choices, shrine), // answer is the index of choices that matches the shrine
+        image: `${shrine.id}-external`,
+        imageAnswered: `${shrine.id}-title`,
+        title: `This moon is in the <strong>${shrine.kingdom}</strong> kingdom(id: ${shrine.id})`, // can change to include kingdom name
+        id: shrine.id
+      }
+    },
+    // *****************//
+
+    /*
+
+    // ** THIS IS THE FUNCTION WE WANT TO WORK AROUND **
     guessTheShrine () {
       const set = _.filter(shrines, o => {
         return this.hasImages(o, ['external', 'title']) &&
                this.DLC(o)
-      })
+      }) //GET A SET OF SHRINES THAT FOLLOW DLC RULES FOR QUIZ, AND HAVE IMAGES
 
-      if (set.length < 1) this.newQuestion()
-      const shrine = this.randomShrine(set)
+      if (set.length < 1) this.newQuestion() //idk
+      const shrine = this.randomShrine(set)//get a random shrine from our set
 
       const choices = _.shuffle(_.concat(shrine, _.slice(_.shuffle(_.filter(shrines,
         o => {
-          if (shrine.dlc) {
+          if (shrine.dlc) { //if shrine is dlc, include only dlc shrines as choices
             return o.dlc === true &&
                    o.id !== shrine.id // only select other DLC shrines
           }
           return (o.region === shrine.region) &&
                  this.DLC(o) && // is DLC enabled? if so, mix it in
                  o.id !== shrine.id
-        }
+        } //include o in the choices if it is in the same region and it follows dlc rules for quiz, and it is not the shrine
       )), 0, this.options.chooseFrom - 1)))
 
       return {
         choices: _.map(choices, o => `${o.monk}: ${o.trial}`),
-        answer: _.indexOf(choices, shrine),
+        answer: _.indexOf(choices, shrine), //answer is the index of choices that matches the shrine
         image: `${shrine.id}-external`,
         imageAnswered: `${shrine.id}-title`,
-        title: `This shrine is in the <strong>${shrine.region}</strong> region`,
+        title: `This shrine is in the <strong>${shrine.region}</strong> region`, //can change to include kingdom name
         id: shrine.id
       }
     },
+    // *****************
+    */
     guessTheShrineFromQuest () {
       const set = _.filter(shrines, o => {
         return o.quest &&

@@ -82,7 +82,7 @@
     "main_item": "Eightfold Blade, Shield of the Mind's Eye",
     "region": "Dueling Peaks",
     "landmark": "Kakariko Village",
-    "missing_images": ["internal"]
+    "missing_images": [ "internal" ]
   },
   {
     "id": "012",
@@ -337,7 +337,7 @@
     "trial": "A Minor Test of Strength",
     "main_item": "Royal Halberd",
     "region": "Central",
-    "missing_images": ["internal"],
+    "missing_images": [ "internal" ],
     "minor_landmark": "Quarry Ruins"
   },
   {
@@ -577,7 +577,7 @@
     "trial": "A Major Test of Strength",
     "main_item": "Royal Halberd",
     "region": "Tabantha",
-    "missing_images": ["internal"],
+    "missing_images": [ "internal" ],
     "minor_landmark": "Ancient Columns"
   },
   {
@@ -961,7 +961,7 @@
     "main_item": "Barbarian Helm",
     "region": "Akkala",
     "quest": "Trail of the Labyrinth",
-    "missing_images": ["quest"],
+    "missing_images": [ "quest" ],
     "minor_landmark": "Lomei Labyrinth Island"
   },
   {
