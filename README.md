@@ -1,6 +1,7 @@
-# learntheshrines
+# smo moon quiz
 
 > A flashcard app for super mario odyssey moons, based off of the base code from https://gitlab.trash.cat/cb/learntheshrines
+> all code in /data_collection is what I wrote to gather images and the moon data from text files
 
 ## Build Setup
 
